@@ -30,8 +30,12 @@
     @apply bg-secondary-dark;
 }
 
-#tw-main-footer p, #tw-main-footer p a{
+#tw-main-footer p, #tw-main-footer p a {
     @apply text-white text-[14px] no-underline;
+}
+
+.form-submit.wp-block-button {
+    @apply mb-0;
 }
 
 .form-submit .wp-block-button__link {
