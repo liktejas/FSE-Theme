@@ -1,0 +1,17 @@
+{
+  "name": "tailwindfse",
+  "version": "1.0.0",
+  "description": "=== TailwindFSE === Contributors: Tejas Sonawane Tested up to: 6.0 Requires at least: 5.8 Requires PHP: 7.4 Version: 1.0.0 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html Copyright: Tejas Sonawane",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "minify": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch --minify",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css && npx tailwindcss -i ./src/input.css -o ./dist/output.min.css --minify"
+  },
+  "author": "Tejas Sonawane",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.4",
+    "tailwindcss": "^3.1.6"
+  }
+}
