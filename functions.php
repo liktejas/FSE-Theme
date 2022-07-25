@@ -3,7 +3,9 @@
  * Functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
+ * @author         CyberChimps
+ * @copyright      Copyright (c) 2021, CyberChimps
+ * @license        license.txt
  * @package FSE
  * @since 1.0.0
  */
@@ -21,9 +23,6 @@ if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
-
-		// Add suport for menus.
-		add_theme_support( 'menus' );
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
@@ -70,3 +69,6 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'tailwindfse_styles' );
+
+// Add block patterns.
+require get_template_directory() . '/inc/block-patterns.php';
