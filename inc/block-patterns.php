@@ -50,6 +50,8 @@ function tailwindfse_register_block_patterns() {
 		'call-now-button',
 		'service-pattern',
 		'video-text-button',
+		'team-pattern',
+		'portfolio-pattern',
 	);
 
 	/**

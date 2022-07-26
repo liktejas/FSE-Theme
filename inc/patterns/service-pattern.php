@@ -10,8 +10,8 @@ return array(
 	'title'      => __( 'Our Services', 'tailwindfse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'services' ),
-	'content'    => '<!-- wp:cover {"overlayColor":"whisper","style":{"spacing":{"padding":{"top":"70px","bottom":"70px","right":"0px","left":"0px"}}}} -->
-										<div class="wp-block-cover has-whisper-background-color has-background-dim"
+	'content'    => '<!-- wp:cover {"overlayColor":"white","style":{"spacing":{"padding":{"top":"70px","bottom":"70px","right":"0px","left":"0px"}}}} -->
+										<div class="wp-block-cover has-white-background-color has-background-dim"
 											style="padding-top:70px;padding-right:0px;padding-bottom:70px;padding-left:0px">
 											<div class="wp-block-cover__inner-container">
 												<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#f9636b"},"typography":{"lineHeight":"1.6"}},"fontSize":"normal"} -->
