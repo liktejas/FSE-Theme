@@ -36,11 +36,11 @@ return array(
 													<!-- wp:column {"style":{"spacing":{"padding":{"top":"29px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"white"} -->
 													<div class="wp-block-column has-white-background-color has-background"
 														style="padding-top:29px;padding-right:20px;padding-bottom:0px;padding-left:20px">
-														<!-- wp:media-text {"mediaId":18,"mediaLink":"' . esc_url( get_theme_file_uri( 'images/corpicon2.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
+														<!-- wp:media-text {"mediaId":18,"mediaLink":"' . esc_url( get_theme_file_uri( 'assets/images/corpicon2.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
 														<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center"
 															style="grid-template-columns:23% auto">
 															<figure class="wp-block-media-text__media"><img
-																	src="' . esc_url( get_theme_file_uri( 'images/corpicon2.png' ) ) . '" alt=""
+																	src="' . esc_url( get_theme_file_uri( 'assets/images/corpicon2.png' ) ) . '" alt=""
 																	class="wp-image-18 size-full" /></figure>
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
@@ -60,11 +60,11 @@ return array(
 													<!-- wp:column {"style":{"spacing":{"padding":{"top":"29px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"white"} -->
 													<div class="wp-block-column has-white-background-color has-background"
 														style="padding-top:29px;padding-right:20px;padding-bottom:0px;padding-left:20px">
-														<!-- wp:media-text {"mediaId":36,"mediaLink":"' . esc_url( get_theme_file_uri( 'images/corpicon3.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
+														<!-- wp:media-text {"mediaId":36,"mediaLink":"' . esc_url( get_theme_file_uri( 'assets/images/corpicon3.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
 														<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center"
 															style="grid-template-columns:23% auto">
 															<figure class="wp-block-media-text__media"><img
-																	src="' . esc_url( get_theme_file_uri( 'images/corpicon3.png' ) ) . '" alt=""
+																	src="' . esc_url( get_theme_file_uri( 'assets/images/corpicon3.png' ) ) . '" alt=""
 																	class="wp-image-36 size-full" /></figure>
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
@@ -88,11 +88,11 @@ return array(
 													<!-- wp:column {"style":{"spacing":{"padding":{"top":"29px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"white"} -->
 													<div class="wp-block-column has-white-background-color has-background"
 														style="padding-top:29px;padding-right:20px;padding-bottom:0px;padding-left:20px">
-														<!-- wp:media-text {"mediaId":37,"mediaLink":"' . esc_url( get_theme_file_uri( 'images/corpicon4.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
+														<!-- wp:media-text {"mediaId":37,"mediaLink":"' . esc_url( get_theme_file_uri( 'assets/images/corpicon4.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
 														<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center"
 															style="grid-template-columns:23% auto">
 															<figure class="wp-block-media-text__media"><img
-																	src="' . esc_url( get_theme_file_uri( 'images/corpicon4.png' ) ) . '" alt=""
+																	src="' . esc_url( get_theme_file_uri( 'assets/images/corpicon4.png' ) ) . '" alt=""
 																	class="wp-image-37 size-full" /></figure>
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
@@ -112,11 +112,11 @@ return array(
 													<!-- wp:column {"style":{"spacing":{"padding":{"top":"29px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"white"} -->
 													<div class="wp-block-column has-white-background-color has-background"
 														style="padding-top:29px;padding-right:20px;padding-bottom:0px;padding-left:20px">
-														<!-- wp:media-text {"mediaId":38,"mediaLink":"' . esc_url( get_theme_file_uri( 'images/corpicon6.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
+														<!-- wp:media-text {"mediaId":38,"mediaLink":"' . esc_url( get_theme_file_uri( 'assets/images/corpicon6.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
 														<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center"
 															style="grid-template-columns:23% auto">
 															<figure class="wp-block-media-text__media"><img
-																	src="' . esc_url( get_theme_file_uri( 'images/corpicon6.png' ) ) . '" alt=""
+																	src="' . esc_url( get_theme_file_uri( 'assets/images/corpicon6.png' ) ) . '" alt=""
 																	class="wp-image-38 size-full" /></figure>
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
@@ -140,11 +140,11 @@ return array(
 													<!-- wp:column {"style":{"spacing":{"padding":{"top":"29px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"white"} -->
 													<div class="wp-block-column has-white-background-color has-background"
 														style="padding-top:29px;padding-right:20px;padding-bottom:0px;padding-left:20px">
-														<!-- wp:media-text {"mediaId":39,"mediaLink":"' . esc_url( get_theme_file_uri( 'images/corpicon5.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
+														<!-- wp:media-text {"mediaId":39,"mediaLink":"' . esc_url( get_theme_file_uri( 'assets/images/corpicon5.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
 														<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center"
 															style="grid-template-columns:23% auto">
 															<figure class="wp-block-media-text__media"><img
-																	src="' . esc_url( get_theme_file_uri( 'images/corpicon5.png' ) ) . '" alt=""
+																	src="' . esc_url( get_theme_file_uri( 'assets/images/corpicon5.png' ) ) . '" alt=""
 																	class="wp-image-39 size-full" /></figure>
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
@@ -164,11 +164,11 @@ return array(
 													<!-- wp:column {"style":{"spacing":{"padding":{"top":"29px","right":"20px","bottom":"0px","left":"20px"}}},"backgroundColor":"white"} -->
 													<div class="wp-block-column has-white-background-color has-background"
 														style="padding-top:29px;padding-right:20px;padding-bottom:0px;padding-left:20px">
-														<!-- wp:media-text {"mediaId":40,"mediaLink":"' . esc_url( get_theme_file_uri( 'images/corpicon1.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
+														<!-- wp:media-text {"mediaId":40,"mediaLink":"' . esc_url( get_theme_file_uri( 'assets/images/corpicon1.png' ) ) . '","mediaType":"image","mediaWidth":23,"verticalAlignment":"center"} -->
 														<div class="wp-block-media-text alignwide is-stacked-on-mobile is-vertically-aligned-center"
 															style="grid-template-columns:23% auto">
 															<figure class="wp-block-media-text__media"><img
-																	src="' . esc_url( get_theme_file_uri( 'images/corpicon1.png' ) ) . '" alt=""
+																	src="' . esc_url( get_theme_file_uri( 'assets/images/corpicon1.png' ) ) . '" alt=""
 																	class="wp-image-40 size-full" /></figure>
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->

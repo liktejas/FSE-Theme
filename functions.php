@@ -56,7 +56,7 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 
 		wp_register_style(
 			'tailwindcss_fse_output',
-			get_template_directory_uri() . '/dist/' . $stylesheet,
+			get_template_directory_uri() . '/assets/css/output/' . $stylesheet,
 			array(),
 			$version_string
 		);

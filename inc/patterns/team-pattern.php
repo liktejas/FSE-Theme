@@ -35,7 +35,7 @@ return array(
 					<!-- wp:image {"align":"center","id":108,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 					<div class="wp-block-image is-style-rounded">
 						<figure class="aligncenter size-full"><img
-								src="' . esc_url( get_theme_file_uri( 'images/team1.jpg' ) ) . '" alt=""
+								src="' . esc_url( get_theme_file_uri( 'assets/images/team1.jpg' ) ) . '" alt=""
 								class="wp-image-108" /></figure>
 					</div>
 					<!-- /wp:image -->
@@ -71,7 +71,7 @@ return array(
 					<!-- wp:image {"align":"center","id":109,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 					<div class="wp-block-image is-style-rounded">
 						<figure class="aligncenter size-full"><img
-								src="' . esc_url( get_theme_file_uri( 'images/team2.jpg' ) ) . '" alt=""
+								src="' . esc_url( get_theme_file_uri( 'assets/images/team2.jpg' ) ) . '" alt=""
 								class="wp-image-109" /></figure>
 					</div>
 					<!-- /wp:image -->
@@ -107,7 +107,7 @@ return array(
 					<!-- wp:image {"align":"center","id":110,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 					<div class="wp-block-image is-style-rounded">
 						<figure class="aligncenter size-full"><img
-								src="' . esc_url( get_theme_file_uri( 'images/team3.jpg' ) ) . '" alt=""
+								src="' . esc_url( get_theme_file_uri( 'assets/images/team3.jpg' ) ) . '" alt=""
 								class="wp-image-110" /></figure>
 					</div>
 					<!-- /wp:image -->
@@ -143,7 +143,7 @@ return array(
 					<!-- wp:image {"align":"center","id":111,"sizeSlug":"full","linkDestination":"none","className":"is-style-rounded"} -->
 					<div class="wp-block-image is-style-rounded">
 						<figure class="aligncenter size-full"><img
-								src="' . esc_url( get_theme_file_uri( 'images/team4.jpg' ) ) . '" alt=""
+								src="' . esc_url( get_theme_file_uri( 'assets/images/team4.jpg' ) ) . '" alt=""
 								class="wp-image-111" /></figure>
 					</div>
 					<!-- /wp:image -->

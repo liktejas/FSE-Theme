@@ -32,50 +32,50 @@ return array(
 			<figure class="wp-block-gallery columns-3 is-cropped">
 				<ul class="blocks-gallery-grid">
 					<li class="blocks-gallery-item">
-						<figure><a href="' . esc_url( get_theme_file_uri( 'images/portfolio1.jpg' ) ) . '"><img
-									src="' . esc_url( get_theme_file_uri( 'images/portfolio1.jpg' ) ) . '" alt=""
+						<figure><a href="' . esc_url( get_theme_file_uri( 'assets/images/portfolio1.jpg' ) ) . '"><img
+									src="' . esc_url( get_theme_file_uri( 'assets/images/portfolio1.jpg' ) ) . '" alt=""
 									data-id="100"
-									data-full-url="' . esc_url( get_theme_file_uri( 'images/portfolio1.jpg' ) ) . '"
+									data-full-url="' . esc_url( get_theme_file_uri( 'assets/images/portfolio1.jpg' ) ) . '"
 									data-link="http://one.wordpress.test/sample-page/portfolio1/"
 									class="wp-image-100" /></a></figure>
 					</li>
 					<li class="blocks-gallery-item">
-						<figure><a href="' . esc_url( get_theme_file_uri( 'images/portfolio2.jpg' ) ) . '"><img
-									src="' . esc_url( get_theme_file_uri( 'images/portfolio2.jpg' ) ) . '" alt=""
+						<figure><a href="' . esc_url( get_theme_file_uri( 'assets/images/portfolio2.jpg' ) ) . '"><img
+									src="' . esc_url( get_theme_file_uri( 'assets/images/portfolio2.jpg' ) ) . '" alt=""
 									data-id="101"
-									data-full-url="' . esc_url( get_theme_file_uri( 'images/portfolio2.jpg' ) ) . '"
+									data-full-url="' . esc_url( get_theme_file_uri( 'assets/images/portfolio2.jpg' ) ) . '"
 									data-link="http://one.wordpress.test/sample-page/portfolio2/"
 									class="wp-image-101" /></a></figure>
 					</li>
 					<li class="blocks-gallery-item">
-						<figure><a href="' . esc_url( get_theme_file_uri( 'images/portfolio3.jpg' ) ) . '"><img
-									src="' . esc_url( get_theme_file_uri( 'images/portfolio3.jpg' ) ) . '" alt=""
+						<figure><a href="' . esc_url( get_theme_file_uri( 'assets/images/portfolio3.jpg' ) ) . '"><img
+									src="' . esc_url( get_theme_file_uri( 'assets/images/portfolio3.jpg' ) ) . '" alt=""
 									data-id="102"
-									data-full-url="' . esc_url( get_theme_file_uri( 'images/portfolio3.jpg' ) ) . '"
+									data-full-url="' . esc_url( get_theme_file_uri( 'assets/images/portfolio3.jpg' ) ) . '"
 									data-link="http://one.wordpress.test/sample-page/portfolio3/"
 									class="wp-image-102" /></a></figure>
 					</li>
 					<li class="blocks-gallery-item">
-						<figure><a href="' . esc_url( get_theme_file_uri( 'images/portfolio4.jpg' ) ) . '"><img
-									src="' . esc_url( get_theme_file_uri( 'images/portfolio4.jpg' ) ) . '" alt=""
+						<figure><a href="' . esc_url( get_theme_file_uri( 'assets/images/portfolio4.jpg' ) ) . '"><img
+									src="' . esc_url( get_theme_file_uri( 'assets/images/portfolio4.jpg' ) ) . '" alt=""
 									data-id="103"
-									data-full-url="' . esc_url( get_theme_file_uri( 'images/portfolio4.jpg' ) ) . '"
+									data-full-url="' . esc_url( get_theme_file_uri( 'assets/images/portfolio4.jpg' ) ) . '"
 									data-link="http://one.wordpress.test/sample-page/portfolio4/"
 									class="wp-image-103" /></a></figure>
 					</li>
 					<li class="blocks-gallery-item">
-						<figure><a href="' . esc_url( get_theme_file_uri( 'images/portfolio5.jpg' ) ) . '"><img
-									src="' . esc_url( get_theme_file_uri( 'images/portfolio5.jpg' ) ) . '" alt=""
+						<figure><a href="' . esc_url( get_theme_file_uri( 'assets/images/portfolio5.jpg' ) ) . '"><img
+									src="' . esc_url( get_theme_file_uri( 'assets/images/portfolio5.jpg' ) ) . '" alt=""
 									data-id="105"
-									data-full-url="' . esc_url( get_theme_file_uri( 'images/portfolio5.jpg' ) ) . '"
+									data-full-url="' . esc_url( get_theme_file_uri( 'assets/images/portfolio5.jpg' ) ) . '"
 									data-link="http://one.wordpress.test/sample-page/portfolio5/"
 									class="wp-image-105" /></a></figure>
 					</li>
 					<li class="blocks-gallery-item">
-						<figure><a href="' . esc_url( get_theme_file_uri( 'images/portfolio6.jpg' ) ) . '"><img
-									src="' . esc_url( get_theme_file_uri( 'images/portfolio6.jpg' ) ) . '" alt=""
+						<figure><a href="' . esc_url( get_theme_file_uri( 'assets/images/portfolio6.jpg' ) ) . '"><img
+									src="' . esc_url( get_theme_file_uri( 'assets/images/portfolio6.jpg' ) ) . '" alt=""
 									data-id="106"
-									data-full-url="' . esc_url( get_theme_file_uri( 'images/portfolio6.jpg' ) ) . '"
+									data-full-url="' . esc_url( get_theme_file_uri( 'assets/images/portfolio6.jpg' ) ) . '"
 									data-link="http://one.wordpress.test/sample-page/portfolio6/"
 									class="wp-image-106" /></a></figure>
 					</li>
