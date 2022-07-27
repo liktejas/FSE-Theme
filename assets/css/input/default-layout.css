@@ -15,7 +15,7 @@
 }
 
 .wp-block-query, .single-post #tw_single_page, .page #tw_single_page {
-    @apply bg-mute-light;
+    @apply bg-mute-light pt-5;
 }
 
 .wp-block-post-date, .wp-block-post-author__name {

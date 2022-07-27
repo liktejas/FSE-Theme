@@ -359,6 +359,11 @@
   background-color: rgb(0 102 204 / var(--tw-bg-opacity))
 }
 
+.bg-mute-light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 234 234 / var(--tw-bg-opacity))
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5
 }
@@ -628,7 +633,8 @@
 
 .wp-block-query,  .single-post #tw_single_page,  .page #tw_single_page {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 234 234 / var(--tw-bg-opacity))
+  background-color: rgb(234 234 234 / var(--tw-bg-opacity));
+  padding-top: 1.25rem
 }
 
 .wp-block-post-date,  .wp-block-post-author__name {
