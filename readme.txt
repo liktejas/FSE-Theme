@@ -1,6 +1,6 @@
 === TailwindFSE ===
 Contributors: Tejas Sonawane
-Tested up to: 6.0
+Tested up to: 6.0.1
 Requires at least: 5.8
 Requires PHP: 7.4
 Version: 1.0.0
