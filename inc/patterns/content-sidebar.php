@@ -7,7 +7,7 @@
  */
 
 return array(
-	'title'      => __( 'Sidebar', 'tailwindfse' ),
+	'title'      => __( 'Content Sidebar', 'tailwindfse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'content'    => '<!-- wp:group {"className":"sidebar is-style-align-full"} -->
 					<div class="wp-block-group sidebar is-style-align-full">
