@@ -5,7 +5,7 @@
   "tested_up_to": "6.0.1",
   "scripts": {
     "dev": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.css --watch",
-    "minify": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.css --watch --minify",
+    "minify": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.min.css --watch --minify",
     "build": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.css && npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.min.css --minify"
   },
   "author": "Tejas Sonawane",
