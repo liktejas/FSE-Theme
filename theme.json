@@ -447,7 +447,7 @@
 			"area": "footer"
 		},
 		{
-			"name": "sidebar",
+			"name": "content-sidebar",
 			"title": "Sidebar",
 			"area": "uncategorized"
 		},

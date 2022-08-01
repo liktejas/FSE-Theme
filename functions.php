@@ -72,3 +72,5 @@ add_action( 'wp_enqueue_scripts', 'tailwindfse_styles' );
 
 // Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
+
+add_action( 'customize_register', '__return_true' );
