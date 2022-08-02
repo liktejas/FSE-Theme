@@ -111,6 +111,11 @@
 		"typography": {
 			"fontFamilies": [
 				{
+					"fontFamily": "'Roboto', sans-serif",
+					"slug": "roboto",
+					"name": "Roboto"
+				},
+				{
 					"fontFamily": "arial,helvetica,sans-serif",
 					"slug": "arial",
 					"name": "Arial",
