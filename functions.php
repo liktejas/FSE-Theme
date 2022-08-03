@@ -10,6 +10,8 @@
  * @since 1.0.0
  */
 
+define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
 if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 	/**
@@ -44,9 +46,8 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 	 */
 	function tailwindfse_styles() {
 		// Register theme stylesheet.
-		$theme_version = wp_get_theme()->get( 'Version' );
 
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
+		$version_string = is_string( THEME_VERSION ) ? THEME_VERSION : false;
 
 		$stylesheet = 'output.min.css';
 
@@ -83,9 +84,7 @@ add_action( 'customize_register', '__return_true' );
  * @return void
  */
 function tailwindfse_add_google_fonts() {
-	?>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<?php
+	wp_enqueue_style( 'tailwindfse_roboto', 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap', array(), THEME_VERSION );
 }
 
 add_action( 'wp_head', 'tailwindfse_add_google_fonts' );
