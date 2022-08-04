@@ -6,10 +6,6 @@
     @apply text-primary-light hover:text-primary-dark font-bold no-underline;
 }
 
-.wp-block-post.type-post {
-    @apply p-9;
-}
-
 .wp-block-post-excerpt__more-link {
     @apply text-primary-light hover:text-primary-dark no-underline;
 }

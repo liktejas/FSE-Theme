@@ -10,6 +10,8 @@
  * @since 1.0.0
  */
 
+define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
 if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 	/**
@@ -44,9 +46,8 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 	 */
 	function tailwindfse_styles() {
 		// Register theme stylesheet.
-		$theme_version = wp_get_theme()->get( 'Version' );
 
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
+		$version_string = is_string( THEME_VERSION ) ? THEME_VERSION : false;
 
 		$stylesheet = 'output.min.css';
 
@@ -72,3 +73,8 @@ add_action( 'wp_enqueue_scripts', 'tailwindfse_styles' );
 
 // Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
+
+add_action( 'customize_register', '__return_true' );
+
+require get_template_directory() . '/inc/class-google-fonts-loader.php';
+

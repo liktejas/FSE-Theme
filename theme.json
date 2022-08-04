@@ -111,6 +111,56 @@
 		"typography": {
 			"fontFamilies": [
 				{
+					"fontFamily": "'Roboto', sans-serif",
+					"slug": "roboto",
+					"name": "Roboto"
+				},
+				{
+					"fontFamily": "'Montserrat', sans-serif",
+					"slug": "montserrat",
+					"name": "Montserrat"
+				},
+				{
+					"fontFamily": "'Open Sans', sans-serif",
+					"slug": "open-sans",
+					"name": "Open Sans"
+				},
+				{
+					"fontFamily": "'Lato', sans-serif",
+					"slug": "lato",
+					"name": "Lato"
+				},
+				{
+					"fontFamily": "'Oswald', sans-serif",
+					"slug": "oswald",
+					"name": "Oswald"
+				},
+				{
+					"fontFamily": "'Source Sans Pro', sans-serif",
+					"slug": "source-sans-pro",
+					"name": "Source Sans Pro"
+				},
+				{
+					"fontFamily": "'Raleway', sans-serif",
+					"slug": "raleway",
+					"name": "Raleway"
+				},
+				{
+					"fontFamily": "'PT Sans', sans-serif",
+					"slug": "pt-sans",
+					"name": "PT Sans"
+				},
+				{
+					"fontFamily": "'Merriweather', sans-serif",
+					"slug": "merriweather",
+					"name": "Merriweather"
+				},
+				{
+					"fontFamily": "'Noto Sans', sans-serif",
+					"slug": "noto-sans",
+					"name": "Noto Sans"
+				},
+				{
 					"fontFamily": "arial,helvetica,sans-serif",
 					"slug": "arial",
 					"name": "Arial",
@@ -447,14 +497,44 @@
 			"area": "footer"
 		},
 		{
-			"name": "sidebar",
-			"title": "Sidebar",
+			"name": "content-sidebar",
+			"title": "Content Sidebar",
 			"area": "uncategorized"
 		},
 		{
 			"name": "sidebar-woo",
 			"title": "Sidebar Woo",
 			"area": "uncategorized"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-elementor",
+			"title": "Elementor Ready Site"
+		},
+		{
+			"name": "gutenberg-fullwidth",
+			"title": "Gutenberg Ready Site"
+		},
+		{
+			"name": "page-cart",
+			"title": "Cart Page"
+		},
+		{
+			"name": "page-checkout",
+			"title": "Checkout Page"
+		},
+		{
+			"name": "page-my-account",
+			"title": "My Account Page"
+		},
+		{
+			"name": "page-shop",
+			"title": "Shop Page"
+		},
+		{
+			"name": "single-product",
+			"title": "Single Product"
 		}
 	]
 }
