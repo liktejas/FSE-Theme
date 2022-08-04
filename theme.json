@@ -116,6 +116,51 @@
 					"name": "Roboto"
 				},
 				{
+					"fontFamily": "'Montserrat', sans-serif",
+					"slug": "montserrat",
+					"name": "Montserrat"
+				},
+				{
+					"fontFamily": "'Open Sans', sans-serif",
+					"slug": "open-sans",
+					"name": "Open Sans"
+				},
+				{
+					"fontFamily": "'Lato', sans-serif",
+					"slug": "lato",
+					"name": "Lato"
+				},
+				{
+					"fontFamily": "'Oswald', sans-serif",
+					"slug": "oswald",
+					"name": "Oswald"
+				},
+				{
+					"fontFamily": "'Source Sans Pro', sans-serif",
+					"slug": "source-sans-pro",
+					"name": "Source Sans Pro"
+				},
+				{
+					"fontFamily": "'Raleway', sans-serif",
+					"slug": "raleway",
+					"name": "Raleway"
+				},
+				{
+					"fontFamily": "'PT Sans', sans-serif",
+					"slug": "pt-sans",
+					"name": "PT Sans"
+				},
+				{
+					"fontFamily": "'Merriweather', sans-serif",
+					"slug": "merriweather",
+					"name": "Merriweather"
+				},
+				{
+					"fontFamily": "'Noto Sans', sans-serif",
+					"slug": "noto-sans",
+					"name": "Noto Sans"
+				},
+				{
 					"fontFamily": "arial,helvetica,sans-serif",
 					"slug": "arial",
 					"name": "Arial",
