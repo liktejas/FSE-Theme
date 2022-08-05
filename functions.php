@@ -26,6 +26,9 @@ if ( ! function_exists( 'tailwindfse_support' ) ) :
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
 
+		// Add support for align wide.
+		add_theme_support( 'align-wide' );
+
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
 	}

@@ -52,6 +52,8 @@ function tailwindfse_register_block_patterns() {
 		'video-text-button',
 		'team-pattern',
 		'portfolio-pattern',
+		'about-business',
+		'about-doctor',
 		'large-footer',
 	);
 
