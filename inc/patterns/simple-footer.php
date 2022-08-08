@@ -1,13 +1,13 @@
 <?php
 /**
- * Large Footer
+ * Simple Footer
  *
  * @since TailwindFSE 1.0
  * @package TailwindFSE
  */
 
 return array(
-	'title'      => __( 'Large Footer', 'tailwindfse' ),
+	'title'      => __( 'Simple Footer', 'tailwindfse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'content'    => '<!-- wp:group {"style":{"color":{"background":"#262626"}}} -->
     <div class="wp-block-group has-background" style="background-color:#262626"><!-- wp:social-links {"customIconBackgroundColor":"#262626","iconBackgroundColorValue":"#262626","openInNewTab":true,"size":"has-normal-icon-size","align":"center","className":"is-style-default","layout":{"type":"flex","justifyContent":"center"}} -->
