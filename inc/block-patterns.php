@@ -54,6 +54,7 @@ function tailwindfse_register_block_patterns() {
 		'portfolio-pattern',
 		'about-business',
 		'about-doctor',
+		'gallery',
 		'simple-footer',
 		'footer-restaurant',
 	);
