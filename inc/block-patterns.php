@@ -53,6 +53,7 @@ function tailwindfse_register_block_patterns() {
 		'team-pattern',
 		'portfolio-pattern',
 		'portfolio-photography',
+		'testimonial',
 		'about-business',
 		'about-doctor',
 		'gallery',
