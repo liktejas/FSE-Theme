@@ -9,7 +9,7 @@
 return array(
 	'title'      => __( 'Hero - Lifestyle', 'tailwindfse' ),
 	'categories' => array( 'responsive_fse_theme' ),
-	'keywords'   => array( 'hero', 'lifestyle' ),
+	'keywords'   => array( 'hero', 'lifestyle', 'hero lifestyle' ),
 	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/images/home-banner.png' ) ) . '","id":1858,"dimRatio":0,"overlayColor":"white","contentPosition":"center center","isDark":false,"className":"is-style-default"} -->
     <div class="wp-block-cover is-light is-style-default"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1858" alt="" src="' . esc_url( get_theme_file_uri( 'assets/images/home-banner.png' ) ) . '" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns {"verticalAlignment":null} -->
     <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":""} -->

@@ -52,10 +52,12 @@ function tailwindfse_register_block_patterns() {
 		'video-text-button',
 		'team-pattern',
 		'portfolio-pattern',
+		'portfolio-photography',
 		'about-business',
 		'about-doctor',
 		'gallery',
 		'hero-lifestyle',
+		'hero-food-blog',
 		'simple-footer',
 		'footer-restaurant',
 	);
