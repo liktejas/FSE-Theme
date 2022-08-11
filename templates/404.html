@@ -1,17 +1,31 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 
-<!-- wp:group {"tagName":"main","align":"full","layout":{"inherit":true}} -->
-<main class="wp-block-group alignfull">
-
-	<!-- wp:heading {"fontSize":"large"} -->
-	<h2 class="has-large-font-size text-red-800">404 Nothing found</h2>
-	<!-- /wp:heading -->
-
-	<!-- wp:spacer {"height":"40px"} -->
-	<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"50px","bottom":"50px"}}}} -->
+<div class="wp-block-group" style="margin-top:50px;margin-bottom:50px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"huge"} -->
+	<p class="has-text-align-center has-huge-font-size"><strong>404 — Fancy meeting you here!</strong></p>
+	<!-- /wp:paragraph -->
+	
+	<!-- wp:spacer {"height":"34px"} -->
+	<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
-
-</main>
-<!-- /wp:group -->
+	
+	<!-- wp:paragraph {"align":"center"} -->
+	<p class="has-text-align-center">Don't panic, we'll get through this together. Let's explore our options here.</p>
+	<!-- /wp:paragraph -->
+	
+	<!-- wp:spacer {"height":"10px"} -->
+	<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+	
+	<!-- wp:paragraph {"align":"center"} -->
+	<p class="has-text-align-center"><strong>You can return </strong><a href="/">← Home</a><strong> or search for the page you were looking for.</strong></p>
+	<!-- /wp:paragraph -->
+	
+	<!-- wp:spacer {"height":"21px"} -->
+	<div style="height:21px" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
+	
+	<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search here...","width":25,"widthUnit":"%","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"align":"center","backgroundColor":"primary"} /--></div>
+	<!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
