@@ -12,6 +12,16 @@
 
 define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
+/**
+ * Check if the WordPress version is 6.0 or higher, and if the PHP version is at least 7.4.
+ * If not, do not activate.
+ */
+if ( version_compare( $GLOBALS['wp_version'], '6.0-RC4-53425', '<' ) || version_compare( PHP_VERSION_ID, '70400', '<' ) ) {
+	// Backward compatibility.
+	require get_template_directory() . '/inc/backward-compatibility.php';
+	return;
+}
+
 if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 	/**
@@ -28,6 +38,7 @@ if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
+		add_editor_style( get_template_directory_uri() . '/assets/css/output/output.css' );
 	}
 
 endif;
@@ -45,7 +56,6 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 	 * @return void
 	 */
 	function tailwindfse_styles() {
-		// Register theme stylesheet.
 
 		$version_string = is_string( THEME_VERSION ) ? THEME_VERSION : false;
 
@@ -55,6 +65,7 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 			$stylesheet = 'output.css';
 		}
 
+		// register style.css stylesheet.
 		wp_register_style(
 			'tailwindcss_fse_output',
 			get_template_directory_uri() . '/assets/css/output/' . $stylesheet,
@@ -74,7 +85,11 @@ add_action( 'wp_enqueue_scripts', 'tailwindfse_styles' );
 // Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
 
+// Enables customizer support.
 add_action( 'customize_register', '__return_true' );
 
+// Loads google fonts.
 require get_template_directory() . '/inc/class-google-fonts-loader.php';
 
+// Apply filters.
+require get_template_directory() . '/inc/filters.php';
