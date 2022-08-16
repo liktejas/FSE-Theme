@@ -2,12 +2,12 @@
 /**
  * Team Pattern
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Team', 'tailwindfse' ),
+	'title'      => __( 'Team', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'team' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"white","style":{"spacing":{"padding":{"top":"70px","bottom":"70px","right":"0px","left":"0px"}}}} -->
@@ -15,13 +15,13 @@ return array(
 		style="padding-top:70px;padding-right:0px;padding-bottom:70px;padding-left:0px">
 		<div class="wp-block-cover__inner-container">
 			<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#f9636b"},"typography":{"lineHeight":"1.6"}},"fontSize":"normal"} -->
-			<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#f9636b;line-height:1.6">Who
-				we are</p>
+			<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#f9636b;line-height:1.6">' . __( 'Who
+			we are', 'responsive-fse' ) . '</p>
 			<!-- /wp:paragraph -->
 	
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"50px","fontWeight":"600","lineHeight":"1"}},"textColor":"dark"} -->
 			<h2 class="has-text-align-center has-dark-color has-text-color"
-				style="font-size:50px;font-weight:600;line-height:1">Our Team</h2>
+				style="font-size:50px;font-weight:600;line-height:1">' . __( 'Our Team', 'responsive-fse' ) . '</h2>
 			<!-- /wp:heading -->
 	
 			<!-- wp:spacer {"height":50} -->
@@ -42,7 +42,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#333333"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#333333;font-weight:500;line-height:1">JOHN DOE</h2>
+						style="color:#333333;font-weight:500;line-height:1">' . __( 'JOHN DOE', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:spacer {"height":20} -->
@@ -51,7 +51,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#7a7a7a"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#7a7a7a;font-weight:500;line-height:1">Web Developer</h2>
+						style="color:#7a7a7a;font-weight:500;line-height:1">' . __( 'Web Developer', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:social-links {"customIconColor":"#73ac52","iconColorValue":"#73ac52","size":"has-normal-icon-size","align":"center","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
@@ -78,7 +78,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#333333"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#333333;font-weight:500;line-height:1">JANE DOE</h2>
+						style="color:#333333;font-weight:500;line-height:1">' . __( 'JANE DOE', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:spacer {"height":20} -->
@@ -87,7 +87,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#7a7a7a"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#7a7a7a;font-weight:500;line-height:1">Sr. Tester</h2>
+						style="color:#7a7a7a;font-weight:500;line-height:1">' . __( 'Sr. Tester', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:social-links {"customIconColor":"#73ac52","iconColorValue":"#73ac52","size":"has-normal-icon-size","align":"center","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
@@ -114,7 +114,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#333333"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#333333;font-weight:500;line-height:1">RICHARD SMITH</h2>
+						style="color:#333333;font-weight:500;line-height:1">' . __( 'RICHARD SMITH', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:spacer {"height":20} -->
@@ -123,7 +123,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#7a7a7a"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#7a7a7a;font-weight:500;line-height:1">Marketing Executive</h2>
+						style="color:#7a7a7a;font-weight:500;line-height:1">' . __( 'Marketing Executive', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:social-links {"customIconColor":"#73ac52","iconColorValue":"#73ac52","size":"has-normal-icon-size","align":"center","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
@@ -150,7 +150,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#333333"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#333333;font-weight:500;line-height:1">REAL JONES</h2>
+						style="color:#333333;font-weight:500;line-height:1">' . __( 'REAL JONES', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:spacer {"height":20} -->
@@ -159,7 +159,7 @@ return array(
 	
 					<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontWeight":"500","lineHeight":"1"},"color":{"text":"#7a7a7a"}},"fontSize":"normal"} -->
 					<h2 class="has-text-align-center has-text-color has-normal-font-size"
-						style="color:#7a7a7a;font-weight:500;line-height:1">Team Leader</h2>
+						style="color:#7a7a7a;font-weight:500;line-height:1">' . __( 'Team Leader', 'responsive-fse' ) . '</h2>
 					<!-- /wp:heading -->
 	
 					<!-- wp:social-links {"customIconColor":"#73ac52","iconColorValue":"#73ac52","size":"has-normal-icon-size","align":"center","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->

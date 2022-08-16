@@ -1,20 +1,17 @@
-=== TailwindFSE ===
-Contributors: Tejas Sonawane
+=== Responsive FSE ===
+Contributors: CyberChimps
 Tested up to: 6.0.1
-Requires at least: 5.8
+Requires at least: 6.0.1
 Requires PHP: 7.4
-Version: 1.0.0
+Version: 1.2.0
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Copyright: Tejas Sonawane
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Copyright: CyberChimps
 
-A full site editing theme. Empty version.
-
-== Changelog ==
-1.0.0 Initial release
+A full site editing theme.
 
 == Licence ==
-TailwindFSE is distributed under the terms of the GNU GPL.
+Responsive FSE is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -25,22 +22,3 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
-
-== Resources used to build this theme ==
-
-* Twenty Twenty-Two WordPress theme (C) WordPress.org
-License: GNU General Public License v2.0 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-* Q WordPress theme (C) Ari Stathopoulos
-License: GNU General Public License v2.0 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-* Underscores https://underscores.me/, (C) Automattic, Inc.
-License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-
-* Full site editing starter theme by Carolina Nymark
-https://fullsiteediting.com
-License: GNU General Public License v2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html

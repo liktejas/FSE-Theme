@@ -2,12 +2,12 @@
 /**
  * Content Sidebar
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Content Sidebar', 'tailwindfse' ),
+	'title'      => __( 'Content Sidebar', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'content'    => '<!-- wp:group {"className":"sidebar is-style-align-full"} -->
 					<div class="wp-block-group sidebar is-style-align-full">
@@ -18,7 +18,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">RECENT POSTS</h2>
+							<h2 class="has-normal-font-size">' . __( 'RECENT POSTS', 'responsive-fse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:latest-posts {"className":"latest_posts"} /-->
@@ -32,7 +32,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">RECENT COMMENTS</h2>
+							<h2 class="has-normal-font-size">' . __( 'RECENT COMMENTS', 'responsive-fse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:latest-comments {"displayAvatar":false,"displayDate":false,"displayExcerpt":false} /-->
@@ -46,7 +46,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">ARCHIVES</h2>
+							<h2 class="has-normal-font-size">' . __( 'ARCHIVES', 'responsive-fse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:archives /-->
@@ -60,7 +60,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">CATEGORIES</h2>
+							<h2 class="has-normal-font-size">' . __( 'CATEGORIES', 'responsive-fse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:categories /-->

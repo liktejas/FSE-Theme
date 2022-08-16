@@ -2,12 +2,12 @@
 /**
  * Portfolio Pattern
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Portfolio', 'tailwindfse' ),
+	'title'      => __( 'Portfolio', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'portfolio' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"white","style":{"spacing":{"padding":{"top":"70px","bottom":"70px","right":"0px","left":"0px"}}}} -->
@@ -21,7 +21,7 @@ return array(
 	
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"50px","fontWeight":"600","lineHeight":"1"}},"textColor":"dark"} -->
 			<h2 class="has-text-align-center has-dark-color has-text-color"
-				style="font-size:50px;font-weight:600;line-height:1">Latest Work</h2>
+				style="font-size:50px;font-weight:600;line-height:1">' . __( 'Latest Work', 'responsive-fse' ) . '</h2>
 			<!-- /wp:heading -->
 	
 			<!-- wp:spacer {"height":20} -->

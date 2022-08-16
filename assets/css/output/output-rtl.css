@@ -208,8 +208,8 @@
 }
 
 .mx-auto {
-  margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  margin-left: auto
 }
 
 .my-5 {
@@ -230,7 +230,7 @@
 }
 
 .ml-4 {
-  margin-left: 1rem
+  margin-right: 1rem
 }
 
 .block {
@@ -374,8 +374,8 @@
 }
 
 .px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem
+  padding-right: 1.25rem;
+  padding-left: 1.25rem
 }
 
 .py-24 {
@@ -389,8 +389,8 @@
 }
 
 .px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem
+  padding-right: 0.75rem;
+  padding-left: 0.75rem
 }
 
 .py-2 {
@@ -399,8 +399,8 @@
 }
 
 .px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem
+  padding-right: 2rem;
+  padding-left: 2rem
 }
 
 .pt-8 {

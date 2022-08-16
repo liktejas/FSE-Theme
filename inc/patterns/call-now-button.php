@@ -2,12 +2,12 @@
 /**
  * Call now button
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Call Now Button', 'tailwindfse' ),
+	'title'      => __( 'Call Now Button', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'Call', 'contact' ),
 	'content'    => '<!-- wp:group {"style":{"spacing":{"padding":{"top":"5px"}}},"className":"is-style-align-full","layout":{"inherit":true}} -->
