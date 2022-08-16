@@ -3,18 +3,18 @@
  * 404
  * Inserter: no
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( '404', 'tailwindfse' ),
+	'title'      => __( '404', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( '404', 'Business' ),
 	'inserter'   => false,
 	'content'    => '<!-- wp:group {"style":{"spacing":{"margin":{"top":"50px","bottom":"50px"}}}} -->
     <div class="wp-block-group" style="margin-top:50px;margin-bottom:50px"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","fontSize":"huge"} -->
-        <p class="has-text-align-center has-huge-font-size"><strong>' . __( '404 — Fancy meeting you here!', 'tailwindfse' ) . '</strong></p>
+        <p class="has-text-align-center has-huge-font-size"><strong>' . __( '404 — Fancy meeting you here!', 'responsive-fse' ) . '</strong></p>
         <!-- /wp:paragraph -->
         
         <!-- wp:spacer {"height":"34px"} -->
@@ -22,7 +22,7 @@ return array(
         <!-- /wp:spacer -->
         
         <!-- wp:paragraph {"align":"center"} -->
-        <p class="has-text-align-center">' . __( "Don't panic, we'll get through this together. Let's explore our options here.", 'tailwindfse' ) . '</p>
+        <p class="has-text-align-center">' . __( "Don't panic, we'll get through this together. Let's explore our options here.", 'responsive-fse' ) . '</p>
         <!-- /wp:paragraph -->
         
         <!-- wp:spacer {"height":"10px"} -->
@@ -30,7 +30,7 @@ return array(
         <!-- /wp:spacer -->
         
         <!-- wp:paragraph {"align":"center"} -->
-        <p class="has-text-align-center"><strong>' . __( 'You can return ', 'tailwindfse' ) . '</strong><a href="/">← Home</a><strong>' . __( ' or search for the page you were looking for.', 'tailwindfse' ) . '</strong></p>
+        <p class="has-text-align-center"><strong>' . __( 'You can return ', 'responsive-fse' ) . '</strong><a href="/">← Home</a><strong>' . __( ' or search for the page you were looking for.', 'responsive-fse' ) . '</strong></p>
         <!-- /wp:paragraph -->
         
         <!-- wp:spacer {"height":"21px"} -->

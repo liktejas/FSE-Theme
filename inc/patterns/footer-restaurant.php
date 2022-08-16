@@ -2,12 +2,12 @@
 /**
  * Footer Restaurant
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Footer Restaurant', 'tailwindfse' ),
+	'title'      => __( 'Footer Restaurant', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'Footer Restaurant', 'Footer', 'Restaurant' ),
 	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_theme_file_uri( 'assets/images/restaurant4.jpg' ) ) . '","id":2108,"dimRatio":80,"minHeight":300,"contentPosition":"center center","align":"full"} -->
@@ -20,39 +20,39 @@ return array(
     
     <!-- wp:column {"verticalAlignment":"top"} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Open Hours', 'tailwindfse' ) . '</h2>
+    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Open Hours', 'responsive-fse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">' . __( 'Mon-Sat 10:00 AM - 08:00 PM', 'tailwindfse' ) . '</p>
+    <p class="has-text-align-center">' . __( 'Mon-Sat 10:00 AM - 08:00 PM', 'responsive-fse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">' . __( 'Sunday: 10:00 AM - 10:00 PM', 'tailwindfse' ) . '</p>
+    <p class="has-text-align-center">' . __( 'Sunday: 10:00 AM - 10:00 PM', 'responsive-fse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column {"verticalAlignment":"top"} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Location', 'tailwindfse' ) . '</h2>
+    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Location', 'responsive-fse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">' . __( '123, Main Street,  Anytown, ST 12345', 'tailwindfse' ) . '</p>
+    <p class="has-text-align-center">' . __( '123, Main Street,  Anytown, ST 12345', 'responsive-fse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column {"verticalAlignment":"top"} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Reservation', 'tailwindfse' ) . '</h2>
+    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Reservation', 'responsive-fse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">' . __( '+123 4567 890', 'tailwindfse' ) . '</p>
+    <p class="has-text-align-center">' . __( '+123 4567 890', 'responsive-fse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">' . __( 'hello@example.com', 'tailwindfse' ) . '</p>
+    <p class="has-text-align-center">' . __( 'hello@example.com', 'responsive-fse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div></div>

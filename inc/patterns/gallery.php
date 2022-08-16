@@ -2,18 +2,18 @@
 /**
  * Gallery
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Gallery', 'tailwindfse' ),
+	'title'      => __( 'Gallery', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'Gallery' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"white","isDark":false} -->
     <div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
     <div class="wp-block-group" style="margin-top:20px;margin-bottom:20px"><!-- wp:heading {"textAlign":"center"} -->
-    <h2 class="has-text-align-center">' . __( 'Gallery', 'tailwindfse' ) . '</h2>
+    <h2 class="has-text-align-center">' . __( 'Gallery', 'responsive-fse' ) . '</h2>
     <!-- /wp:heading --></div>
     <!-- /wp:group -->
     

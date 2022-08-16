@@ -1,5 +1,5 @@
 {
-  "name": "tailwindfse",
+  "name": "responsive-fse",
   "version": "1.0.0",
   "description": "",
   "tested_up_to": "6.0.1",
@@ -7,7 +7,7 @@
     "dev": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.css --watch",
     "minify": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.min.css --watch --minify",
     "build": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.css && npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.min.css --minify",
-    "makepot": "wp i18n make-pot . languages/tailwindfse.pot --exclude=config,node_modules,scripts,vendor,dist/blocks.build.js"
+    "makepot": "wp i18n make-pot . languages/responsive-fse.pot --exclude=config,node_modules,scripts,vendor,dist/blocks.build.js"
   },
   "author": "Tejas Sonawane",
   "license": "GPL-2.0-or-later",

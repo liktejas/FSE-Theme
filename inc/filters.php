@@ -1,18 +1,18 @@
 <?php
 /**
- * TailwindFSE: Filters
+ * Responsive FSE: Filters
  *
- * @since TailwindFSE 1.0
+ * @since Responsive FSE 1.0
  * @author         CyberChimps
  * @copyright      Copyright (c) 2021, CyberChimps
  * @license        license.txt
- * @package TailwindFSE
+ * @package Responsive FSE
  */
 
 /**
  * Show '(No title)' if a post has no title.
  *
- * @since 1.0.0
+ * @since 1.2.0
  *
  * @return string
  */
@@ -20,7 +20,7 @@ add_filter(
 	'the_title',
 	function( $title ) {
 		if ( ! is_admin() && empty( $title ) ) {
-			$title = _x( '(No title)', 'Used if post or pages has no title', 'tailwindfse' );
+			$title = _x( '(No title)', 'Used if post or pages has no title', 'responsive_fse' );
 		}
 
 		return $title;
@@ -30,7 +30,7 @@ add_filter(
 /**
  * Replace the default [...] excerpt more with an elipsis.
  *
- * @since 1.0.0
+ * @since 1.2.0
  *
  * @return string
 */

@@ -61,7 +61,7 @@ module.exports = function( grunt ) {
 				options: {
 					domainPath: '/languages/',    // Where to save the POT file.
 					mainFile: 'style.css',      // Main project file.
-					potFilename: 'tailwindfse.pot',   // Name of the POT file.
+					potFilename: 'responsive-fse.pot',   // Name of the POT file.
 					type: 'wp-theme',  // Type of project (wp-plugin or wp-theme).
 					exclude: ['build/.*'],       // List of files or directories to ignore.
 					processPot: function( pot, options ) {
@@ -141,7 +141,7 @@ module.exports = function( grunt ) {
         compress: {
             responsive_block_editor_addons: {
                 options: {
-                    archive: 'build/tailwindfse.zip',
+                    archive: 'build/responsive-fse.zip',
                 },
                 files: [
                     {
@@ -179,11 +179,11 @@ module.exports = function( grunt ) {
                 ],
             },
             languages: {
-                src: 'languages/tailwindfse.pot',
+                src: 'languages/responsive-fse.pot',
                 overwrite: true,
                 replacements: [
                     {
-                        from: /(Project-Id-Version: TailwindFSE )[0-9\.]+/,
+                        from: /(Project-Id-Version: responsive-fse )[0-9\.]+/,
                         to: '$1' + pkg.version,
                     },
                 ],

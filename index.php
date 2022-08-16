@@ -4,6 +4,6 @@
  *
  * @link https://core.trac.wordpress.org/ticket/54272
  *
- * @package tailwindfse
- * @since 1.0.0
+ * @package responsive-fse
+ * @since 1.2.0
  */

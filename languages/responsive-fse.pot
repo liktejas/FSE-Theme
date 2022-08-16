@@ -1,10 +1,10 @@
-# <!=Copyright (C) 2022 Tejas Sonawane
-# This file is distributed under the GNU General Public License v2 or later.=!>
+# <!=Copyright (C) 2022 CyberChimps
+# This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: TailwindFSE 1.0.0\n"
+"Project-Id-Version: Responsive FSE 1.2.0\n"
 "Report-Msgid-Bugs-To: https://cyberchimps.com/forum/free/responsive/\n"
-"POT-Creation-Date: 2022-08-16 11:32:42+00:00\n"
+"POT-Creation-Date: 2022-08-16 12:28:17+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -435,19 +435,31 @@ msgid "Learn More"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "TailwindFSE"
+msgid "Responsive FSE"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://tailwindfse.com"
+msgid "https://cyberchimps.com/responsive-fse-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Responsive-FSE is an experimental theme for the next-generation Full Site "
+"Editing (FSE) currently available in Gutenberg. Using this theme, you can "
+"easily change the complete layout of the post or page by editing templates. "
+"There are also useful blocks to play around with like Site Logo, Post "
+"Title, Post Author, Query, etc. The theme also allows users to add Template "
+"Parts like header, footer, sidebar, etc. to the template and also create "
+"new template parts. Features: #Block Patterns #Full Site Editing #Custom "
+"Colors #Custom Header #Custom Logo #Custom Menu #Grid Layout #Wide Blocks"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "Tejas Sonawane"
+msgid "CyberChimps"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://tejassonawane@test.com"
+msgid "https://cyberchimps.com"
 msgstr ""
 
 #: inc/filters.php:23

@@ -2,7 +2,7 @@
 /**
  * Google Fonts Support
  *
- * @package TailwindFSE
+ * @package Responsive FSE
  * @license https://opensource.org/licenses/MIT
  */
 
@@ -29,43 +29,43 @@ if ( ! class_exists( 'Google_Fonts_Loader' ) ) {
 		 */
 		protected $fonts = array(
 			array(
-				'slug' => 'tailwindfse_roboto',
+				'slug' => 'responsive_fse_roboto',
 				'url'  => 'Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900',
 			),
 			array(
-				'slug' => 'tailwindfse_monteserrat',
+				'slug' => 'responsive_fse_monteserrat',
 				'url'  => 'Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
 			),
 			array(
-				'slug' => 'tailwindfse_open_sans',
+				'slug' => 'responsive_fse_open_sans',
 				'url'  => 'Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800',
 			),
 			array(
-				'slug' => 'tailwindfse_lato',
+				'slug' => 'responsive_fse_lato',
 				'url'  => 'Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900',
 			),
 			array(
-				'slug' => 'tailwindfse_oswald',
+				'slug' => 'responsive_fse_oswald',
 				'url'  => 'Oswald:wght@200;300;400;500;600;700',
 			),
 			array(
-				'slug' => 'tailwindfse_source_sans_pro',
+				'slug' => 'responsive_fse_source_sans_pro',
 				'url'  => 'Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900',
 			),
 			array(
-				'slug' => 'tailwindfse_raleway',
+				'slug' => 'responsive_fse_raleway',
 				'url'  => 'Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
 			),
 			array(
-				'slug' => 'tailwindfse_pt_sans',
+				'slug' => 'responsive_fse_pt_sans',
 				'url'  => 'PT+Sans:ital,wght@0,400;0,700;1,400;1,700',
 			),
 			array(
-				'slug' => 'tailwindfse_merriweather',
+				'slug' => 'responsive_fse_merriweather',
 				'url'  => 'Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900',
 			),
 			array(
-				'slug' => 'tailwindfse_noto_sans',
+				'slug' => 'responsive_fse_noto_sans',
 				'url'  => 'Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900',
 			),
 		);
@@ -73,7 +73,7 @@ if ( ! class_exists( 'Google_Fonts_Loader' ) ) {
 		/**
 		 * Load google fonts.
 		 */
-		public function tailwindfse_load_fonts() {
+		public function responsive_fse_load_fonts() {
 			add_action(
 				'wp_head',
 				function() {
@@ -88,4 +88,4 @@ if ( ! class_exists( 'Google_Fonts_Loader' ) ) {
 }
 
 $fonts = new Google_Fonts_Loader();
-$fonts->tailwindfse_load_fonts();
+$fonts->responsive_fse_load_fonts();

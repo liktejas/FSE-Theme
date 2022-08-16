@@ -2,12 +2,12 @@
 /**
  * Video Text & Button Pattern
  *
- * @since TailwindFSE 1.0
- * @package TailwindFSE
+ * @since Responsive FSE 1.0
+ * @package Responsive FSE
  */
 
 return array(
-	'title'      => __( 'Video with text & button', 'tailwindfse' ),
+	'title'      => __( 'Video with text & button', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'keywords'   => array( 'video', 'text', 'button' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"white","style":{"spacing":{"padding":{"top":"70px","bottom":"70px","right":"0px","left":"0px"}}}} -->
@@ -32,11 +32,11 @@ return array(
                 <!-- wp:column {"verticalAlignment":"top"} -->
                 <div class="wp-block-column is-vertically-aligned-top">
                     <!-- wp:heading {"style":{"typography":{"fontSize":"32px","fontWeight":"700","lineHeight":"1"},"color":{"text":"#111111"}}} -->
-                    <h2 class="has-text-color" style="color:#111111;font-size:32px;font-weight:700;line-height:1">' . __( 'Meet Our Experts', 'tailwindfse' ) . '</h2>
+                    <h2 class="has-text-color" style="color:#111111;font-size:32px;font-weight:700;line-height:1">' . __( 'Meet Our Experts', 'responsive-fse' ) . '</h2>
                     <!-- /wp:heading -->
 
                     <!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.6"},"color":{"text":"#333333"}},"fontSize":"normal"} -->
-                    <p class="has-text-color has-normal-font-size" style="color:#333333;line-height:1.6">' . __( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, empor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet.incididunt ut labore et dolore magnaincididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet.incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet. incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, empor incididunt ut labore et Lorem ipsum dolor sit amet,', 'tailwindfse' ) . '</p>
+                    <p class="has-text-color has-normal-font-size" style="color:#333333;line-height:1.6">' . __( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, empor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet.incididunt ut labore et dolore magnaincididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet.incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet. incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, empor incididunt ut labore et Lorem ipsum dolor sit amet,', 'responsive-fse' ) . '</p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:buttons -->
@@ -44,7 +44,7 @@ return array(
                         <!-- wp:button {"style":{"color":{"background":"#3c63ae"},"border":{"radius":"5px"},"spacing":{"padding":{"top":"15px","bottom":"15px","left":"30px","right":"30px"}},"typography":{"fontSize":"18px"}}} -->
                         <div class="wp-block-button has-custom-font-size" style="font-size:18px"><a
                                 class="wp-block-button__link has-background"
-                                style="border-radius:5px;background-color:#3c63ae;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px">' . __( 'Learn More', 'tailwindfse' ) . '</a></div>
+                                style="border-radius:5px;background-color:#3c63ae;padding-top:15px;padding-right:30px;padding-bottom:15px;padding-left:30px">' . __( 'Learn More', 'responsive-fse' ) . '</a></div>
                         <!-- /wp:button -->
                     </div>
                     <!-- /wp:buttons -->
