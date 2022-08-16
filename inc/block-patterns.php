@@ -61,6 +61,7 @@ function tailwindfse_register_block_patterns() {
 		'hero-food-blog',
 		'simple-footer',
 		'footer-restaurant',
+		'404',
 	);
 
 	/**

@@ -13,6 +13,8 @@
  * Show '(No title)' if a post has no title.
  *
  * @since 1.0.0
+ *
+ * @return string
  */
 add_filter(
 	'the_title',
@@ -29,6 +31,8 @@ add_filter(
  * Replace the default [...] excerpt more with an elipsis.
  *
  * @since 1.0.0
+ *
+ * @return string
 */
 add_filter(
 	'excerpt_more',

@@ -22,6 +22,22 @@ if ( version_compare( $GLOBALS['wp_version'], '6.0-RC4-53425', '<' ) || version_
 	return;
 }
 
+/**
+ * Get the output stylesheet
+ *
+ * @since tailwindfse 1.0
+ * @return string
+ */
+function tailwindfse_get_stylesheet() {
+	$stylesheet = 'output.min.css';
+
+	if ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ) {
+		$stylesheet = 'output.css';
+		return $stylesheet;
+	}
+	return $stylesheet;
+}
+
 if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 	/**
@@ -38,7 +54,7 @@ if ( ! function_exists( 'tailwindfse_support' ) ) :
 
 		// Enqueue editor styles.
 		add_editor_style( 'style.css' );
-		add_editor_style( get_template_directory_uri() . '/assets/css/output/output.css' );
+		add_editor_style( get_template_directory_uri() . '/assets/css/output/' . tailwindfse_get_stylesheet() );
 	}
 
 endif;
@@ -59,16 +75,10 @@ if ( ! function_exists( 'tailwindfse_styles' ) ) :
 
 		$version_string = is_string( THEME_VERSION ) ? THEME_VERSION : false;
 
-		$stylesheet = 'output.min.css';
-
-		if ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ) {
-			$stylesheet = 'output.css';
-		}
-
 		// register style.css stylesheet.
 		wp_register_style(
 			'tailwindcss_fse_output',
-			get_template_directory_uri() . '/assets/css/output/' . $stylesheet,
+			get_template_directory_uri() . '/assets/css/output/' . tailwindfse_get_stylesheet(),
 			array(),
 			$version_string
 		);

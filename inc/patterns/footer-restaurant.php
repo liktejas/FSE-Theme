@@ -20,39 +20,39 @@ return array(
     
     <!-- wp:column {"verticalAlignment":"top"} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">Open Hours</h2>
+    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Open Hours', 'tailwindfse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Mon-Sat 10:00 AM - 08:00 PM</p>
+    <p class="has-text-align-center">' . __( 'Mon-Sat 10:00 AM - 08:00 PM', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Sunday: 10:00 AM - 10:00 PM</p>
+    <p class="has-text-align-center">' . __( 'Sunday: 10:00 AM - 10:00 PM', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column {"verticalAlignment":"top"} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">Location</h2>
+    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Location', 'tailwindfse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">123, Main Street,  Anytown, ST 12345</p>
+    <p class="has-text-align-center">' . __( '123, Main Street,  Anytown, ST 12345', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column {"verticalAlignment":"top"} -->
     <div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"10px"}},"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
-    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">Reservation</h2>
+    <h2 class="has-text-align-center" style="font-style:normal;font-weight:500;margin-bottom:10px">' . __( 'Reservation', 'tailwindfse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">+123 4567 890</p>
+    <p class="has-text-align-center">' . __( '+123 4567 890', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">hello@example.com</p>
+    <p class="has-text-align-center">' . __( 'hello@example.com', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div></div>

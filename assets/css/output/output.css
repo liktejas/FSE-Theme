@@ -654,19 +654,6 @@
   color: rgb(51 51 51 / var(--tw-text-opacity))
 }
 
-#tw-main-footer {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 51 51 / var(--tw-bg-opacity))
-}
-
-#tw-main-footer p,  #tw-main-footer p a {
-  font-size: 14px;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none
-}
-
 .form-submit.wp-block-button {
   margin-bottom: 0px
 }

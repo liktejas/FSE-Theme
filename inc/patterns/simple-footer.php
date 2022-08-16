@@ -26,96 +26,96 @@ return array(
     
     <!-- wp:group {"style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
     <div class="wp-block-group" style="margin-top:20px;margin-bottom:20px"><!-- wp:paragraph {"align":"center","textColor":"white","fontSize":"medium"} -->
-    <p class="has-text-align-center has-white-color has-text-color has-medium-font-size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.</p>
+    <p class="has-text-align-center has-white-color has-text-color has-medium-font-size">' . __( 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas.', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:group -->
     
     <!-- wp:columns {"textColor":"white"} -->
     <div class="wp-block-columns has-white-color has-text-color"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-    <p class="has-text-align-center has-medium-font-size">LINKS</p>
+    <p class="has-text-align-center has-medium-font-size">' . __( 'LINKS', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 1</p>
+    <p class="has-text-align-center">' . __( 'Link 1', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 2</p>
+    <p class="has-text-align-center">' . __( 'Link 2', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 3</p>
+    <p class="has-text-align-center">' . __( 'Link 3', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 4</p>
+    <p class="has-text-align-center">' . __( 'Link 4', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-    <p class="has-text-align-center has-medium-font-size">LINKS</p>
+    <p class="has-text-align-center has-medium-font-size">' . __( 'LINKS', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 1</p>
+    <p class="has-text-align-center">' . __( 'Link 1', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 2</p>
+    <p class="has-text-align-center">' . __( 'Link 2', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 3</p>
+    <p class="has-text-align-center">' . __( 'Link 3', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 4</p>
+    <p class="has-text-align-center">' . __( 'Link 4', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-    <p class="has-text-align-center has-medium-font-size">LINKS</p>
+    <p class="has-text-align-center has-medium-font-size">LINKS' . __( 'LINKS', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 1</p>
+    <p class="has-text-align-center">' . __( 'Link 1', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 2</p>
+    <p class="has-text-align-center">' . __( 'Link 2', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 3</p>
+    <p class="has-text-align-center">' . __( 'Link 3', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 4</p>
+    <p class="has-text-align-center">' . __( 'Link 4', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-    <p class="has-text-align-center has-medium-font-size">LINKS</p>
+    <p class="has-text-align-center has-medium-font-size">LINKS' . __( 'LINKS', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 1</p>
+    <p class="has-text-align-center">' . __( 'Link 1', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 2</p>
+    <p class="has-text-align-center">' . __( 'Link 2', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 3</p>
+    <p class="has-text-align-center">' . __( 'Link 3', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph -->
     
     <!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">Link 4</p>
+    <p class="has-text-align-center">' . __( 'Link 4', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div>

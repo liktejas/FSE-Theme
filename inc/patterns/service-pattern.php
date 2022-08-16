@@ -15,16 +15,16 @@ return array(
 											style="padding-top:70px;padding-right:0px;padding-bottom:70px;padding-left:0px">
 											<div class="wp-block-cover__inner-container">
 												<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#f9636b"},"typography":{"lineHeight":"1.6"}},"fontSize":"normal"} -->
-												<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#f9636b;line-height:1.6">Our Services</p>
+												<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#f9636b;line-height:1.6">' . __( 'Our Services', 'tailwindfse' ) . '</p>
 												<!-- /wp:paragraph -->
 
 												<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"50px","fontWeight":"600","lineHeight":"1"}},"textColor":"dark"} -->
 												<h2 class="has-text-align-center has-dark-color has-text-color"
-													style="font-size:50px;font-weight:600;line-height:1">What We Do</h2>
+													style="font-size:50px;font-weight:600;line-height:1">' . __( 'What We Do', 'tailwindfse' ) . '</h2>
 												<!-- /wp:heading -->
 
 												<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1.6"},"color":{"text":"#000000"}},"fontSize":"normal"} -->
-												<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#000000;line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+												<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#000000;line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.', 'tailwindfse' ) . '</p>
 												<!-- /wp:paragraph -->
 
 												<!-- wp:spacer {"height":20} -->
@@ -45,11 +45,11 @@ return array(
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
 																<h2 class="has-dark-color has-text-color has-medium-font-size"
-																	style="font-weight:700;line-height:1">Brand Strategy</h2>
+																	style="font-weight:700;line-height:1">' . __( 'Brand Strategy', 'tailwindfse' ) . '</h2>
 																<!-- /wp:heading -->
 
 																<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"dark","fontSize":"normal"} -->
-																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.', 'tailwindfse' ) . '</p>
 																<!-- /wp:paragraph -->
 															</div>
 														</div>
@@ -69,11 +69,11 @@ return array(
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
 																<h2 class="has-dark-color has-text-color has-medium-font-size"
-																	style="font-weight:700;line-height:1">Modern Design</h2>
+																	style="font-weight:700;line-height:1">' . __( 'Modern Design', 'tailwindfse' ) . '</h2>
 																<!-- /wp:heading -->
 
 																<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"dark","fontSize":"normal"} -->
-																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.', 'tailwindfse' ) . '</p>
 																<!-- /wp:paragraph -->
 															</div>
 														</div>
@@ -97,11 +97,11 @@ return array(
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
 																<h2 class="has-dark-color has-text-color has-medium-font-size"
-																	style="font-weight:700;line-height:1">Security Data</h2>
+																	style="font-weight:700;line-height:1">' . __( 'Security Data', 'tailwindfse' ) . '</h2>
 																<!-- /wp:heading -->
 
 																<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"dark","fontSize":"normal"} -->
-																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.', 'tailwindfse' ) . '</p>
 																<!-- /wp:paragraph -->
 															</div>
 														</div>
@@ -121,11 +121,11 @@ return array(
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
 																<h2 class="has-dark-color has-text-color has-medium-font-size"
-																	style="font-weight:700;line-height:1">Data Analysis</h2>
+																	style="font-weight:700;line-height:1">' . __( 'Data Analysis', 'tailwindfse' ) . '</h2>
 																<!-- /wp:heading -->
 
 																<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"dark","fontSize":"normal"} -->
-																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.', 'tailwindfse' ) . '</p>
 																<!-- /wp:paragraph -->
 															</div>
 														</div>
@@ -149,11 +149,11 @@ return array(
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
 																<h2 class="has-dark-color has-text-color has-medium-font-size"
-																	style="font-weight:700;line-height:1">SEO Optimization</h2>
+																	style="font-weight:700;line-height:1">' . __( 'SEO Optimization', 'tailwindfse' ) . '</h2>
 																<!-- /wp:heading -->
 
 																<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"dark","fontSize":"normal"} -->
-																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.', 'tailwindfse' ) . '</p>
 																<!-- /wp:paragraph -->
 															</div>
 														</div>
@@ -173,11 +173,11 @@ return array(
 															<div class="wp-block-media-text__content">
 																<!-- wp:heading {"style":{"typography":{"lineHeight":"1","fontWeight":"700"}},"textColor":"dark","fontSize":"medium"} -->
 																<h2 class="has-dark-color has-text-color has-medium-font-size"
-																	style="font-weight:700;line-height:1">Best Marketing</h2>
+																	style="font-weight:700;line-height:1">' . __( 'Best Marketing', 'tailwindfse' ) . '</h2>
 																<!-- /wp:heading -->
 
 																<!-- wp:paragraph {"style":{"typography":{"lineHeight":1.6}},"textColor":"dark","fontSize":"normal"} -->
-																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
+																<p class="has-dark-color has-text-color has-normal-font-size" style="line-height:1.6">' . __( 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.', 'tailwindfse' ) . '</p>
 																<!-- /wp:paragraph -->
 															</div>
 														</div>

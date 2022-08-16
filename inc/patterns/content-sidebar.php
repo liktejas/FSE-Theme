@@ -18,7 +18,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">RECENT POSTS</h2>
+							<h2 class="has-normal-font-size">' . __( 'RECENT POSTS', 'tailwindfse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:latest-posts {"className":"latest_posts"} /-->
@@ -32,7 +32,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">RECENT COMMENTS</h2>
+							<h2 class="has-normal-font-size">' . __( 'RECENT COMMENTS', 'tailwindfse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:latest-comments {"displayAvatar":false,"displayDate":false,"displayExcerpt":false} /-->
@@ -46,7 +46,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">ARCHIVES</h2>
+							<h2 class="has-normal-font-size">' . __( 'ARCHIVES', 'tailwindfse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:archives /-->
@@ -60,7 +60,7 @@ return array(
 						<!-- wp:column {"width":"100%"} -->
 						<div class="wp-block-column" style="flex-basis:100%">
 							<!-- wp:heading {"fontSize":"normal"} -->
-							<h2 class="has-normal-font-size">CATEGORIES</h2>
+							<h2 class="has-normal-font-size">' . __( 'CATEGORIES', 'tailwindfse' ) . '</h2>
 							<!-- /wp:heading -->
 					
 							<!-- wp:categories /-->

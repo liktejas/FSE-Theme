@@ -15,19 +15,19 @@ return array(
     <div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":""} -->
     <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
     <div class="wp-block-group" style="margin-bottom:30px"><!-- wp:heading {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"800","fontSize":"80px","lineHeight":"1"},"color":{"text":"#0c0c0c"}}} -->
-    <h2 class="has-text-color" style="color:#0c0c0c;font-size:80px;font-style:normal;font-weight:800;line-height:1;text-transform:uppercase">Latest</h2>
+    <h2 class="has-text-color" style="color:#0c0c0c;font-size:80px;font-style:normal;font-weight:800;line-height:1;text-transform:uppercase">' . __( 'Latest', 'tailwindfse' ) . '</h2>
     <!-- /wp:heading --></div>
     <!-- /wp:group -->
     
     <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"30px"}}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
     <div class="wp-block-group" style="margin-bottom:30px"><!-- wp:heading {"textAlign":"left","style":{"typography":{"textTransform":"uppercase","fontSize":"80px","lineHeight":"1","fontStyle":"normal","fontWeight":"500"},"color":{"text":"#0c0c0c"}}} -->
-    <h2 class="has-text-align-left has-text-color" style="color:#0c0c0c;font-size:80px;font-style:normal;font-weight:500;line-height:1;text-transform:uppercase">trends</h2>
+    <h2 class="has-text-align-left has-text-color" style="color:#0c0c0c;font-size:80px;font-style:normal;font-weight:500;line-height:1;text-transform:uppercase">' . __( 'trends', 'tailwindfse' ) . '</h2>
     <!-- /wp:heading --></div>
     <!-- /wp:group -->
     
     <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
     <div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"0px"},"color":{"background":"#0c0c0c"}}} -->
-    <div class="wp-block-button"><a class="wp-block-button__link has-background" style="border-radius:0px;background-color:#0c0c0c">READ MORE</a></div>
+    <div class="wp-block-button"><a class="wp-block-button__link has-background" style="border-radius:0px;background-color:#0c0c0c">' . __( 'READ MORE', 'tailwindfse' ) . '</a></div>
     <!-- /wp:button --></div>
     <!-- /wp:buttons --></div>
     <!-- /wp:column -->

@@ -21,7 +21,7 @@ return array(
 	
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"50px","fontWeight":"600","lineHeight":"1"}},"textColor":"dark"} -->
 			<h2 class="has-text-align-center has-dark-color has-text-color"
-				style="font-size:50px;font-weight:600;line-height:1">Latest Work</h2>
+				style="font-size:50px;font-weight:600;line-height:1">' . __( 'Latest Work', 'tailwindfse' ) . '</h2>
 			<!-- /wp:heading -->
 	
 			<!-- wp:spacer {"height":20} -->

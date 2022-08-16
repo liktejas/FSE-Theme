@@ -14,13 +14,13 @@ return array(
 	'content'     => '<!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center"><a href="mailto:#">example@example.com<br></a>123-456-7890</p>
+    <p class="has-text-align-center"><a href="mailto:#">' . __( 'example@example.com', 'tailwindfse' ) . '<br></a>123-456-7890</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:paragraph {"align":"center"} -->
-    <p class="has-text-align-center">123 Main Street<br>Cambridge, MA, 02139</p>
+    <p class="has-text-align-center">' . __( '123 Main Street<br>Cambridge, MA, 02139', 'tailwindfse' ) . '</p>
     <!-- /wp:paragraph --></div>
     <!-- /wp:column -->
     

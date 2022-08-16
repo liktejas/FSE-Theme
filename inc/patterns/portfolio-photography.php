@@ -12,7 +12,7 @@ return array(
 	'keywords'   => array( 'Portfolio Photography', 'Portfolio', 'Photography' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"black","minHeight":430,"minHeightUnit":"px"} -->
     <div class="wp-block-cover" style="min-height:430px"><span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"style":{"typography":{"fontSize":"50px"}}} -->
-    <h2 style="font-size:50px">Portfolio</h2>
+    <h2 style="font-size:50px">' . __( 'Portfolio', 'tailwindfse' ) . '</h2>
     <!-- /wp:heading -->
     
     <!-- wp:columns -->
@@ -42,7 +42,7 @@ return array(
     <!-- /wp:columns -->
     
     <!-- wp:paragraph -->
-    <p><a href="#">Browse All</a></p>
+    <p><a href="#">' . __( 'Browse All', 'tailwindfse' ) . '</a></p>
     <!-- /wp:paragraph --></div></div>
     <!-- /wp:cover -->',
 );
