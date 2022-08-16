@@ -11,6 +11,104 @@ module.exports = function( grunt ) {
             build: [ 'build/' ],
         },
 
+        dirs: {
+			lang: 'languages',
+		},
+
+		checktextdomain: {
+			options:{
+				text_domain: '<%= pkg.name %>',
+				correct_domain: true,
+				keywords: [
+					'__:1,2d',
+					'_e:1,2d',
+					'_x:1,2c,3d',
+					'esc_html__:1,2d',
+					'esc_html_e:1,2d',
+					'esc_html_x:1,2c,3d',
+					'esc_attr__:1,2d',
+					'esc_attr_e:1,2d',
+					'esc_attr_x:1,2c,3d',
+					'_ex:1,2c,3d',
+					'_n:1,2,4d',
+					'_nx:1,2,4c,5d',
+					'_n_noop:1,2,3d',
+					'_nx_noop:1,2,3c,4d'
+				]
+			},
+			files: {
+				src:  [
+					'*.php',
+                    'inc/**',
+					'**/*.php',
+					'!node_modules/**',
+					'!vendor/**',
+					'!core/**',
+					'!build/**',
+					'!package-lock.json',
+					'!composer.json',
+					'!composer.lock',
+					'!phpcs.xml.dist',
+					'!**/*~',
+					'!.test/**'
+				],
+				expand: true
+			}
+		},
+
+        makepot: {
+			target: {
+				options: {
+					domainPath: '/languages/',    // Where to save the POT file.
+					mainFile: 'style.css',      // Main project file.
+					potFilename: 'tailwindfse.pot',   // Name of the POT file.
+					type: 'wp-theme',  // Type of project (wp-plugin or wp-theme).
+					exclude: ['build/.*'],       // List of files or directories to ignore.
+					processPot: function( pot, options ) {
+						pot.headers['report-msgid-bugs-to'] = 'https://cyberchimps.com/forum/free/responsive/';
+						pot.headers['plural-forms'] = 'nplurals=2; plural=n != 1;';
+						pot.headers['last-translator'] = 'CyberChimps <support@cyberchimps.com>\n';
+						pot.headers['language-team'] = 'CyberChimps Translate <support@cyberchimps.com>\n';
+						pot.headers['x-poedit-basepath'] = '.\n';
+						pot.headers['x-poedit-language'] = 'English\n';
+						pot.headers['x-poedit-country'] = 'UNITED STATES\n';
+						pot.headers['x-poedit-sourcecharset'] = 'utf-8\n';
+						pot.headers['x-poedit-keywordslist'] = '__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n';
+						pot.headers['x-textdomain-support'] = 'yes\n';
+						return pot;
+					}
+				}
+			}
+		},
+
+        // Generate RTL .css files.
+		rtlcss: {
+			options: {
+				// rtlcss options
+				config: {
+					preserveComments: true,
+					greedy: true
+				},
+				// generate source maps
+				map: false
+			},
+			dist: {
+				files: [
+					{
+						expand: true,
+						cwd: 'assets/css/output/',
+						src: [
+							'**.css',
+							'!*-rtl.css',
+							'!*.min.css'
+						],
+						dest: 'assets/css/output/',
+						ext: '-rtl.css'
+					}
+				]
+			}
+		},
+
         copy: {
             build: {
                 files: [
@@ -25,6 +123,7 @@ module.exports = function( grunt ) {
                             'parts/**',
                             'templates/**',
                             'assets/**',
+                            'languages/**',
                             'readme.txt',
                             '!**/*.css.map',
                             '!**/*.js.map',
@@ -100,7 +199,8 @@ module.exports = function( grunt ) {
 
     require( 'matchdep' ).filterDev( 'grunt-*' ).forEach( grunt.loadNpmTasks );
 
-    grunt.registerTask( 'build', [ 'shell:build', 'update-pot', 'replace', 'clean:build', 'copy:build', 'compress' ] );
+    grunt.registerTask( 'build', [ 'i18n', 'shell:build', 'rtlcss', 'update-pot', 'replace', 'clean:build', 'copy:build', 'compress' ] );
     grunt.registerTask( 'update-pot', [ 'replace:languages' ] );
     grunt.registerTask( 'version', [ 'replace' ] );
+    grunt.registerTask( 'i18n', [ 'makepot' ] );
 };

@@ -62,6 +62,7 @@ function tailwindfse_register_block_patterns() {
 		'simple-footer',
 		'footer-restaurant',
 		'404',
+		'main-footer',
 	);
 
 	/**

@@ -1,0 +1,463 @@
+# <!=Copyright (C) 2022 Tejas Sonawane
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: TailwindFSE 1.0.0\n"
+"Report-Msgid-Bugs-To: https://cyberchimps.com/forum/free/responsive/\n"
+"POT-Creation-Date: 2022-08-16 11:32:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: CyberChimps <support@cyberchimps.com>\n"
+"Language-Team: CyberChimps Translate <support@cyberchimps.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_"
+"x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Textdomain-Support: yes\n"
+
+#: inc/patterns/404.php:11
+msgid "404"
+msgstr ""
+
+#: inc/backward-compatibility.php:39 inc/backward-compatibility.php:55
+#: inc/backward-compatibility.php:78
+#. translators: %1$s: WordPress version. %2$s PHP version.
+msgid ""
+"This theme requires at least WordPress version 6.0 and PHP version 7.4. You "
+"are running WordPress version %1$s and PHP version %2$s. Please upgrade and "
+"try again."
+msgstr ""
+
+#: inc/block-patterns.php:21
+msgid "Responsive-FSE - Theme"
+msgstr ""
+
+#: inc/patterns/404.php:17
+msgid "404 — Fancy meeting you here!"
+msgstr ""
+
+#: inc/patterns/404.php:25
+msgid ""
+"Don't panic, we'll get through this together. Let's explore our options "
+"here."
+msgstr ""
+
+#: inc/patterns/404.php:33
+msgid "You can return "
+msgstr ""
+
+#: inc/patterns/404.php:33
+msgid " or search for the page you were looking for."
+msgstr ""
+
+#: inc/patterns/about-business.php:10
+msgid "About Business"
+msgstr ""
+
+#: inc/patterns/about-business.php:16
+msgid "About Us"
+msgstr ""
+
+#: inc/patterns/about-business.php:20
+msgid "Entrepreneur solutions"
+msgstr ""
+
+#: inc/patterns/about-business.php:24
+msgid ""
+"We are a boutique consulting firm owned and operated by MBA candidates at "
+"CU Boulder. Whether your business is a growing startup or an established "
+"firm, our customized solutions and contemporary skills deliver results."
+msgstr ""
+
+#: inc/patterns/about-doctor.php:10
+msgid "About Doctor"
+msgstr ""
+
+#: inc/patterns/about-doctor.php:18
+msgid "About Me"
+msgstr ""
+
+#: inc/patterns/about-doctor.php:30
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry’s standard dummy text ever since."
+msgstr ""
+
+#: inc/patterns/about-doctor.php:35
+msgid "Education"
+msgstr ""
+
+#: inc/patterns/about-doctor.php:40
+msgid "Medical School - University of Dulton Health Science Center."
+msgstr ""
+
+#: inc/patterns/about-doctor.php:44
+msgid "Residency in Family Medicine - University of Dulton Health Science Center"
+msgstr ""
+
+#: inc/patterns/about-doctor.php:50 inc/patterns/hero-lifestyle.php:30
+msgid "READ MORE"
+msgstr ""
+
+#: inc/patterns/call-now-button.php:10
+msgid "Call Now Button"
+msgstr ""
+
+#: inc/patterns/contact-info.php:10
+msgid "Contact Information"
+msgstr ""
+
+#: inc/patterns/contact-info.php:17
+msgid "example@example.com"
+msgstr ""
+
+#: inc/patterns/contact-info.php:23
+msgid "123 Main Street<br>Cambridge, MA, 02139"
+msgstr ""
+
+#: inc/patterns/content-sidebar.php:10
+msgid "Content Sidebar"
+msgstr ""
+
+#: inc/patterns/content-sidebar.php:21
+msgid "RECENT POSTS"
+msgstr ""
+
+#: inc/patterns/content-sidebar.php:35
+msgid "RECENT COMMENTS"
+msgstr ""
+
+#: inc/patterns/content-sidebar.php:49
+msgid "ARCHIVES"
+msgstr ""
+
+#: inc/patterns/content-sidebar.php:63
+msgid "CATEGORIES"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:10
+msgid "Footer Restaurant"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:23
+msgid "Open Hours"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:27
+msgid "Mon-Sat 10:00 AM - 08:00 PM"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:31
+msgid "Sunday: 10:00 AM - 10:00 PM"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:37
+msgid "Location"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:41
+msgid "123, Main Street,  Anytown, ST 12345"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:47
+msgid "Reservation"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:51
+msgid "+123 4567 890"
+msgstr ""
+
+#: inc/patterns/footer-restaurant.php:55
+msgid "hello@example.com"
+msgstr ""
+
+#: inc/patterns/gallery.php:10 inc/patterns/gallery.php:16
+msgid "Gallery"
+msgstr ""
+
+#: inc/patterns/hero-food-blog.php:10
+msgid "Hero Food Blog"
+msgstr ""
+
+#: inc/patterns/hero-food-blog.php:17
+msgid "Bring spice to your life"
+msgstr ""
+
+#: inc/patterns/hero-food-blog.php:23
+msgid ""
+"The food reflects emotion! Here are some classic recipes from all over the "
+"world."
+msgstr ""
+
+#: inc/patterns/hero-food-blog.php:30
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/hero-lifestyle.php:10
+msgid "Hero - Lifestyle"
+msgstr ""
+
+#: inc/patterns/hero-lifestyle.php:18
+msgid "Latest"
+msgstr ""
+
+#: inc/patterns/hero-lifestyle.php:24
+msgid "trends"
+msgstr ""
+
+#: inc/patterns/main-footer.php:11
+msgid "Main Footer"
+msgstr ""
+
+#: inc/patterns/main-footer.php:16
+msgid "responsive"
+msgstr ""
+
+#: inc/patterns/main-footer.php:16
+msgid "Powered by"
+msgstr ""
+
+#: inc/patterns/main-footer.php:16
+msgid "Responsive FSE Theme"
+msgstr ""
+
+#: inc/patterns/portfolio-pattern.php:10
+#: inc/patterns/portfolio-photography.php:15
+msgid "Portfolio"
+msgstr ""
+
+#: inc/patterns/portfolio-pattern.php:24
+msgid "Latest Work"
+msgstr ""
+
+#: inc/patterns/portfolio-photography.php:10
+msgid "Portfolio Photography"
+msgstr ""
+
+#: inc/patterns/portfolio-photography.php:45
+msgid "Browse All"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:10 inc/patterns/service-pattern.php:18
+msgid "Our Services"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:23
+msgid "What We Do"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:27
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: inc/patterns/service-pattern.php:48
+msgid "Brand Strategy"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:52 inc/patterns/service-pattern.php:76
+#: inc/patterns/service-pattern.php:104 inc/patterns/service-pattern.php:128
+#: inc/patterns/service-pattern.php:156 inc/patterns/service-pattern.php:180
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum."
+msgstr ""
+
+#: inc/patterns/service-pattern.php:72
+msgid "Modern Design"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:100
+msgid "Security Data"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:124
+msgid "Data Analysis"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:152
+msgid "SEO Optimization"
+msgstr ""
+
+#: inc/patterns/service-pattern.php:176
+msgid "Best Marketing"
+msgstr ""
+
+#: inc/patterns/simple-footer.php:10
+msgid "Simple Footer"
+msgstr ""
+
+#: inc/patterns/simple-footer.php:29
+msgid ""
+"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio "
+"earum repellat quaerat voluptatibus placeat nam, commodi optio pariatur est "
+"quia magnam eum harum corrupti dicta, aliquam sequi voluptate quas."
+msgstr ""
+
+#: inc/patterns/simple-footer.php:36 inc/patterns/simple-footer.php:58
+#: inc/patterns/simple-footer.php:80 inc/patterns/simple-footer.php:102
+msgid "LINKS"
+msgstr ""
+
+#: inc/patterns/simple-footer.php:40 inc/patterns/simple-footer.php:62
+#: inc/patterns/simple-footer.php:84 inc/patterns/simple-footer.php:106
+msgid "Link 1"
+msgstr ""
+
+#: inc/patterns/simple-footer.php:44 inc/patterns/simple-footer.php:66
+#: inc/patterns/simple-footer.php:88 inc/patterns/simple-footer.php:110
+msgid "Link 2"
+msgstr ""
+
+#: inc/patterns/simple-footer.php:48 inc/patterns/simple-footer.php:70
+#: inc/patterns/simple-footer.php:92 inc/patterns/simple-footer.php:114
+msgid "Link 3"
+msgstr ""
+
+#: inc/patterns/simple-footer.php:52 inc/patterns/simple-footer.php:74
+#: inc/patterns/simple-footer.php:96 inc/patterns/simple-footer.php:118
+msgid "Link 4"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:10
+msgid "Team"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:18
+msgid ""
+"Who\r\n"
+"\t\t\twe are"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:24
+msgid "Our Team"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:45
+msgid "JOHN DOE"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:54
+msgid "Web Developer"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:81
+msgid "JANE DOE"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:90
+msgid "Sr. Tester"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:117
+msgid "RICHARD SMITH"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:126
+msgid "Marketing Executive"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:153
+msgid "REAL JONES"
+msgstr ""
+
+#: inc/patterns/team-pattern.php:162
+msgid "Team Leader"
+msgstr ""
+
+#: inc/patterns/testimonial.php:10
+msgid "Testimonial"
+msgstr ""
+
+#: inc/patterns/testimonial.php:16
+msgid "Our Happy Clients"
+msgstr ""
+
+#: inc/patterns/testimonial.php:28 inc/patterns/testimonial.php:56
+#: inc/patterns/testimonial.php:84
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+"Lorem Ipsum has been the industry standard dummy text ever"
+msgstr ""
+
+#: inc/patterns/testimonial.php:40
+msgid "John Doe"
+msgstr ""
+
+#: inc/patterns/testimonial.php:46
+msgid "Lawyer"
+msgstr ""
+
+#: inc/patterns/testimonial.php:68
+msgid "Jane Roe"
+msgstr ""
+
+#: inc/patterns/testimonial.php:74
+msgid "Designer"
+msgstr ""
+
+#: inc/patterns/testimonial.php:96
+msgid "Jane Smith"
+msgstr ""
+
+#: inc/patterns/testimonial.php:102
+msgid "Engineer"
+msgstr ""
+
+#: inc/patterns/video-text-button.php:10
+msgid "Video with text & button"
+msgstr ""
+
+#: inc/patterns/video-text-button.php:35
+msgid "Meet Our Experts"
+msgstr ""
+
+#: inc/patterns/video-text-button.php:39
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, empor incididunt "
+"ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, "
+"consectet.incididunt ut labore et dolore magnaincididunt ut labore et "
+"dolore magna aliqua.Lorem ipsum dolor sit amet, consectet.incididunt ut "
+"labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectet. "
+"incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, "
+"consectet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, empor "
+"incididunt ut labore et Lorem ipsum dolor sit amet,"
+msgstr ""
+
+#: inc/patterns/video-text-button.php:47
+msgid "Learn More"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "TailwindFSE"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://tailwindfse.com"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tejas Sonawane"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://tejassonawane@test.com"
+msgstr ""
+
+#: inc/filters.php:23
+msgctxt "Used if post or pages has no title"
+msgid "(No title)"
+msgstr ""
+
+#: inc/patterns/contact-info.php:13
+msgctxt "Block pattern description"
+msgid ""
+"A block with 3 columns that display contact information and social media "
+"links."
+msgstr ""
