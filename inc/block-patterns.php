@@ -78,7 +78,7 @@ function responsive_fse_register_block_patterns() {
 		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
 
 		register_block_pattern(
-			'responsive_fse/' . $block_pattern,
+			'responsive-fse/' . $block_pattern,
 			require $pattern_file
 		);
 	}
