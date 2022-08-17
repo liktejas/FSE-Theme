@@ -10,8 +10,8 @@ return array(
 	'title'      => __( 'Content Sidebar', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'inserter'   => false,
-	'content'    => '<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px"}}},"className":"sidebar is-style-align-full","layout":{"inherit":false}} -->
-	<div class="wp-block-group sidebar is-style-align-full" style="margin-top:40px">
+	'content'    => '<!-- wp:group {"style":{"spacing":{"margin":{"top":"40px","bottom":"40px"}}},"className":"sidebar is-style-align-full","layout":{"inherit":false}} -->
+	<div class="wp-block-group sidebar is-style-align-full" style="margin-top:40px;margin-bottom:40px">
 		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"20px"}}},"backgroundColor":"white"} -->
 		<div class="wp-block-group has-white-background-color has-background" style="margin-bottom:20px">
 			<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"Search here ...","buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true,"backgroundColor":"primary"} /-->
