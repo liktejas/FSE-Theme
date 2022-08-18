@@ -63,6 +63,7 @@ function responsive_fse_register_block_patterns() {
 		'footer-restaurant',
 		'404',
 		'main-footer',
+		'search-title',
 	);
 
 	/**

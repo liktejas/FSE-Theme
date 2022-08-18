@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Responsive FSE 1.2.0\n"
 "Report-Msgid-Bugs-To: https://cyberchimps.com/forum/free/responsive/\n"
-"POT-Creation-Date: 2022-08-16 12:28:17+00:00\n"
+"POT-Creation-Date: 2022-08-18 07:26:26+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -122,24 +122,8 @@ msgstr ""
 msgid "123 Main Street<br>Cambridge, MA, 02139"
 msgstr ""
 
-#: inc/patterns/content-sidebar.php:10
+#: inc/patterns/content-sidebar.php:10 inc/patterns/search-title.php:22
 msgid "Content Sidebar"
-msgstr ""
-
-#: inc/patterns/content-sidebar.php:21
-msgid "RECENT POSTS"
-msgstr ""
-
-#: inc/patterns/content-sidebar.php:35
-msgid "RECENT COMMENTS"
-msgstr ""
-
-#: inc/patterns/content-sidebar.php:49
-msgid "ARCHIVES"
-msgstr ""
-
-#: inc/patterns/content-sidebar.php:63
-msgid "CATEGORIES"
 msgstr ""
 
 #: inc/patterns/footer-restaurant.php:10
@@ -243,6 +227,15 @@ msgstr ""
 
 #: inc/patterns/portfolio-photography.php:45
 msgid "Browse All"
+msgstr ""
+
+#: inc/patterns/search-title.php:15
+#. translators: %s: Search term.
+msgid " for \"%s\""
+msgstr ""
+
+#: inc/patterns/search-title.php:27
+msgid "Search results"
 msgstr ""
 
 #: inc/patterns/service-pattern.php:10 inc/patterns/service-pattern.php:18

@@ -11,6 +11,18 @@ module.exports = function( grunt ) {
             build: [ 'build/' ],
         },
 
+        uglify : {
+
+            options : {
+                banner : "/*! <%= pkg.name %>-output.min.js file */\n"
+            },
+            build : {
+                src : ["assets/js/<%= pkg.name %>-output.js"],
+                dest : "assets/js/<%= pkg.name %>-output.min.js"
+            }
+        
+        },
+
         dirs: {
 			lang: 'languages',
 		},
@@ -199,8 +211,9 @@ module.exports = function( grunt ) {
 
     require( 'matchdep' ).filterDev( 'grunt-*' ).forEach( grunt.loadNpmTasks );
 
-    grunt.registerTask( 'build', [ 'i18n', 'shell:build', 'rtlcss', 'update-pot', 'replace', 'clean:build', 'copy:build', 'compress' ] );
+    grunt.registerTask( 'build', [ 'i18n', 'shell:build', 'rtlcss', 'update-pot', 'replace', 'clean:build', 'uglify', 'copy:build', 'compress' ] );
     grunt.registerTask( 'update-pot', [ 'replace:languages' ] );
     grunt.registerTask( 'version', [ 'replace' ] );
     grunt.registerTask( 'i18n', [ 'makepot' ] );
+    grunt.registerTask( 'default', [ 'rtlcss', 'uglify' ] );
 };

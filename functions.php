@@ -92,6 +92,36 @@ endif;
 
 add_action( 'wp_enqueue_scripts', 'responsive_fse_styles' );
 
+if ( ! function_exists( 'responsive_fse_scripts' ) ) :
+
+	/**
+	 * Enqueue scripts.
+	 *
+	 * @since responsive-fse 1.2.0
+	 *
+	 * @return void
+	 */
+	function responsive_fse_scripts() {
+
+		$version_string = is_string( THEME_VERSION ) ? THEME_VERSION : false;
+
+		$script = 'responsive-fse-output.min.js';
+
+		if ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ) {
+			$script = 'responsive-fse-output.js';
+		}
+
+		// register responsive-fse-output.js stylesheet.
+		wp_register_script( 'responsive_fse_output_script', get_template_directory_uri() . '/assets/js/' . $script, array( 'jquery' ), $version_string, true );
+
+		// Enqueue theme block script.
+		wp_enqueue_script( 'responsive_fse_output_script' );
+	}
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'responsive_fse_scripts' );
+
 // Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
 
