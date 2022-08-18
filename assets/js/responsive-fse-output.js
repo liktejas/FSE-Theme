@@ -9,3 +9,9 @@ if ( !jQuery('#responsive-fse-page-comments-query-loop').children().length > 0 )
     jQuery('#responsive-fse-page-comments').hide()
     jQuery('#responsive-fse-page-content').css('margin-bottom', '40px')
 }
+if ( !jQuery('#responsive-fse-category-pagination').children().length > 0 ) {
+    jQuery('#responsive-fse-category-pagination').hide()
+}
+if ( !jQuery('#responsive-fse-archive-pagination').children().length > 0 ) {
+    jQuery('#responsive-fse-archive-pagination').hide()
+}
