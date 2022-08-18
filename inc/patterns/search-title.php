@@ -7,6 +7,7 @@
  * @package Responsive FSE
  */
 
+$search_result = '';
 if ( isset( $_GET['s'] ) ) { //phpcs:ignore
 
 	$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) ); //phpcs:ignore
@@ -19,7 +20,7 @@ if ( isset( $_GET['s'] ) ) { //phpcs:ignore
 }
 
 return array(
-	'title'      => __( 'Content Sidebar', 'responsive-fse' ),
+	'title'      => __( 'Search Title', 'responsive-fse' ),
 	'categories' => array( 'responsive_fse_theme' ),
 	'inserter'   => false,
 	'content'    => '<!-- wp:group {"style":{"spacing":{"margin":{"top":"20px"}}},"backgroundColor":"white"} -->
