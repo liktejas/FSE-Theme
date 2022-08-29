@@ -503,7 +503,7 @@
 		},
 		{
 			"name": "sidebar-woo",
-			"title": "Sidebar Woo",
+			"title": "WooCommerce Sidebar (Requires WooCommerce)",
 			"area": "uncategorized"
 		},
 		{
@@ -515,34 +515,34 @@
 	"customTemplates": [
 		{
 			"name": "archive-product",
-			"title": "WooCommerce product archive (Requires WooCommerce Blocks plugin)"
+			"title": "WooCommerce Product Archive (Requires WooCommerce)"
 		},
 		{
 			"name": "single-product",
-			"title": "WooCommerce single product (Requires WooCommerce)",
+			"title": "WooCommerce Single Product (Requires WooCommerce)",
 			"postTypes": [ "product", "page" ]
 		},
 		{
 			"name": "page-cart",
-			"title": "WooCommerce cart (Requires WooCommerce Blocks plugin)",
+			"title": "WooCommerce Cart (Requires WooCommerce)",
 			"postTypes": [ "page" ]
 		},
 		{
 			"name": "page-checkout",
-			"title": "WooCommerce checkout (Requires WooCommerce Blocks plugin)",
+			"title": "WooCommerce Checkout (Requires WooCommerce)",
 			"postTypes": [ "page" ]
 		},
 		{
 			"name": "taxonomy-product_cat",
-			"title": "WooCommerce product category archive (Requires WooCommerce)"
+			"title": "WooCommerce Product Category Archive (Requires WooCommerce)"
 		},
 		{
 			"name": "taxonomy-product_tag",
-			"title": "WooCommerce product tag archive (Requires WooCommerce)"
+			"title": "WooCommerce Product Tag Archive (Requires WooCommerce)"
 		},
 		{
 			"name": "product-search-results",
-			"title": "WooCommerce product search result (Requires WooCommerce)"
+			"title": "WooCommerce Product Search Result (Requires WooCommerce)"
 		}
 	]
 }
