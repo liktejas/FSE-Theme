@@ -1,19 +1,29 @@
-<!-- wp:group {"className":"sidebar-woo is-style-align-full"} -->
-<div class="wp-block-group sidebar-woo is-style-align-full">
-    <!-- wp:woocommerce/product-search {"hasLabel":false,"formId":"wc-block-product-search-1","className":"wp-block-woocommerce-product-search"} /-->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"20px","bottom":"20px"}}},"className":"sidebar-woo is-style-align-full"} -->
+<div class="wp-block-group sidebar-woo is-style-align-full" style="margin-top:20px;margin-bottom:20px">
+    <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"20px"}}},"backgroundColor":"white"} -->
+    <div class="wp-block-group has-white-background-color has-background" style="margin-bottom:20px">
+        <!-- wp:woocommerce/product-search {"hasLabel":false,"formId":"wc-block-product-search-1","className":"wp-block-woocommerce-product-search"} /-->
+    </div>
+    <!-- /wp:group -->
 
-    <!-- wp:woocommerce/price-filter -->
-    <div class="wp-block-woocommerce-price-filter is-loading" data-showinputfields="true" data-showfilterbutton="false"
-        data-heading="Filter by price" data-heading-level="3"><span aria-hidden="true"
-            class="wc-block-product-categories__placeholder"></span></div>
-    <!-- /wp:woocommerce/price-filter -->
+    <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"20px"}}},"backgroundColor":"white"} -->
+    <div class="wp-block-group has-white-background-color has-background" style="margin-bottom:20px">
+        <!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"normal"} -->
+        <h2 class="has-normal-font-size" style="text-transform:uppercase">Product Categories</h2>
+        <!-- /wp:heading -->
 
-    <!-- wp:woocommerce/product-categories {"hasCount":false} /-->
+        <!-- wp:woocommerce/product-categories {"hasCount":false} /-->
+    </div>
+    <!-- /wp:group -->
 
-    <!-- wp:woocommerce/all-reviews -->
-    <div class="wp-block-woocommerce-all-reviews wc-block-all-reviews has-image has-name has-date has-rating has-content has-product-name"
-        data-image-type="reviewer" data-orderby="most-recent" data-reviews-on-page-load="10"
-        data-reviews-on-load-more="10" data-show-load-more="true" data-show-orderby="true"></div>
-    <!-- /wp:woocommerce/all-reviews -->
+    <!-- wp:group {"backgroundColor":"white"} -->
+    <div class="wp-block-group has-white-background-color has-background">
+        <!-- wp:heading {"style":{"typography":{"textTransform":"uppercase"},"spacing":{"margin":{"bottom":"10px"}}},"fontSize":"normal"} -->
+        <h2 class="has-normal-font-size" style="text-transform:uppercase;margin-bottom:10px">On Sale Products</h2>
+        <!-- /wp:heading -->
+
+        <!-- wp:woocommerce/product-on-sale {"contentVisibility":{"image":true,"title":true,"price":true,"rating":true,"button":true},"stockStatus":["","instock","outofstock","onbackorder"]} /-->
+    </div>
+    <!-- /wp:group -->
 </div>
 <!-- /wp:group -->
