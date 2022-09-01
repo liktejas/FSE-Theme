@@ -142,7 +142,8 @@ module.exports = function( grunt ) {
                             'functions.php',
                             'index.php',
                             'theme.json',
-                            'style.css'
+                            'style.css',
+                            'screenshot.png'
                         ],
                         dest: 'build/<%= pkg.name %>',
                     },
