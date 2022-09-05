@@ -34,10 +34,10 @@
     @apply font-semibold text-xl my-2;
 }
 
-.single.single-post #responsive-fse-single-post-pagination .post-navigation-link-next.wp-block-post-navigation-link a::before{
+.single.single-post #responsive-fse-single-post-pagination .post-navigation-link-next.wp-block-post-navigation-link a::before {
     content: "« ";
 }
 
-.single.single-post #responsive-fse-single-post-pagination .post-navigation-link-previous.wp-block-post-navigation-link a::after{
+.single.single-post #responsive-fse-single-post-pagination .post-navigation-link-previous.wp-block-post-navigation-link a::after {
     content: " »";
 }
