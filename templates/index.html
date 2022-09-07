@@ -1,4 +1,4 @@
-<!-- wp:template-part {"slug":"header","tagName":"header","theme":"responsive-fse"} /-->
+<!-- wp:template-part {"slug":"header","theme":"responsive-fse","tagName":"header"} /-->
 
 <!-- wp:group {"className":"alignfull bg-mute-light","layout":{"inherit":true}} -->
 <div class="wp-block-group alignfull bg-mute-light">
@@ -16,11 +16,9 @@
 						style="margin-top:20px;margin-bottom:20px;padding-right:20px;padding-left:20px">
 						<!-- wp:post-title {"isLink":true,"style":{"color":{"link":"var:preset|color|primary"}},"fontSize":"large"} /-->
 
-						<!-- wp:post-featured-image {"isLink":true} /-->
-
 						<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
 						<div class="wp-block-group">
-							<!-- wp:post-author {"showAvatar":false} /-->
+							<!-- wp:post-author {"showAvatar":false,"showBio":false,"byline":"","style":{"color":{"text":"#999999"}}} /-->
 
 							<!-- wp:post-date /-->
 
@@ -28,13 +26,16 @@
 						</div>
 						<!-- /wp:group -->
 
-						<!-- wp:post-excerpt {"moreText":"Read more \u003cstrong\u003e»\u003c/strong\u003e"} /-->
+						<!-- wp:post-featured-image {"isLink":true} /-->
+
+						<!-- wp:post-excerpt {"moreText":"Read more \u003cstrong\u003e»\u003c/strong\u003e","style":{"typography":{"lineHeight":1.5}},"fontSize":"normal"} /-->
 					</div>
 					<!-- /wp:group -->
 					<!-- /wp:post-template -->
 
 					<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"20px"}}},"backgroundColor":"white"} -->
-					<div id="responsive-fse-pagination" class="wp-block-group has-white-background-color has-background" style="margin-bottom:20px">
+					<div id="responsive-fse-pagination" class="wp-block-group has-white-background-color has-background"
+						style="margin-bottom:20px">
 						<!-- wp:query-pagination {"paginationArrow":"chevron","layout":{"type":"flex","justifyContent":"space-between"}} -->
 						<!-- wp:query-pagination-previous /-->
 
@@ -53,7 +54,7 @@
 
 		<!-- wp:column {"width":"36%","className":"sidebar"} -->
 		<div class="wp-block-column sidebar" style="flex-basis:36%">
-			<!-- wp:pattern {"slug":"responsive-fse/content-sidebar"} /-->
+			<!-- wp:template-part {"slug":"content-sidebar","theme":"responsive-fse"} /-->
 		</div>
 		<!-- /wp:column -->
 	</div>
@@ -61,4 +62,4 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer","theme":"responsive-fse"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"responsive-fse","tagName":"footer"} /-->

@@ -13,7 +13,7 @@ return array(
 	'keywords'   => array( 'Footer', 'Business' ),
 	'inserter'   => false,
 	'content'    => '<!-- wp:paragraph {"align":"center"} -->
-	<p class="has-text-align-center text-white">© 2022 ' . __( 'responsive', 'responsive-fse' ) . ' | ' . __( 'Powered by', 'responsive-fse' ) . ' <a class="no-underline text-[14px]" href="https://cyberchimps.com/">' . __( 'Responsive FSE Theme', 'responsive-fse' ) . '</a></p>
+	<p class="has-text-align-center text-white">© 2022 ' . __( 'responsive', 'responsive-fse' ) . ' | ' . __( 'Powered by', 'responsive-fse' ) . ' <a class="no-underline text-[14px] text-white" href="https://cyberchimps.com/">' . __( 'Responsive FSE Theme', 'responsive-fse' ) . '</a></p>
 	<!-- /wp:paragraph -->',
 );
 

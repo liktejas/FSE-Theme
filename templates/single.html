@@ -10,11 +10,11 @@
 			<div id="responsive-fse-single-post-content" class="wp-block-group" style="margin-top:40px">
 				<!-- wp:group {"backgroundColor":"white"} -->
 				<div class="wp-block-group has-white-background-color has-background">
-					<!-- wp:post-title {"style":{"spacing":{"margin":{"bottom":"14px"}}},"fontSize":"huge"} /-->
+					<!-- wp:post-title {"fontSize":"huge"} /-->
 
 					<!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
 					<div class="wp-block-group">
-						<!-- wp:post-author {"showAvatar":false} /-->
+						<!-- wp:post-author {"showAvatar":false,"style":{"color":{"text":"#999999"}}} /-->
 
 						<!-- wp:post-date /-->
 
@@ -23,6 +23,10 @@
 						<!-- wp:post-terms {"term":"post_tag"} /-->
 					</div>
 					<!-- /wp:group -->
+
+					<!-- wp:spacer {"height":"20px"} -->
+					<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
 
 					<!-- wp:post-content {"align":"full","layout":{"inherit":true}} /-->
 				</div>
@@ -96,7 +100,7 @@
 
 		<!-- wp:column {"width":"36%","className":"sidebar"} -->
 		<div class="wp-block-column sidebar" style="flex-basis:36%">
-			<!-- wp:pattern {"slug":"responsive-fse/content-sidebar"} /-->
+			<!-- wp:template-part {"slug":"content-sidebar","theme":"responsive-fse"} /-->
 		</div>
 		<!-- /wp:column -->
 	</div>

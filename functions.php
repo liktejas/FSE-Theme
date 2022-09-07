@@ -125,6 +125,9 @@ add_action( 'wp_enqueue_scripts', 'responsive_fse_scripts' );
 // Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
 
+// Block variations.
+require_once get_template_directory() . '/inc/register-block-variations.php';
+
 // Enables customizer support.
 add_action( 'customize_register', '__return_true' );
 
@@ -133,8 +136,3 @@ require get_template_directory() . '/inc/class-google-fonts-loader.php';
 
 // Apply filters.
 require get_template_directory() . '/inc/filters.php';
-
-// WooCommerce setup.
-if ( class_exists( 'WooCommerce' ) ) {
-	require_once get_theme_file_path( 'inc/woocommerce.php' );
-}

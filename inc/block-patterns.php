@@ -45,7 +45,6 @@ function responsive_fse_register_block_patterns() {
 	}
 
 	$block_patterns = array(
-		'content-sidebar',
 		'contact-info',
 		'call-now-button',
 		'service-pattern',

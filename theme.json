@@ -423,9 +423,11 @@
 		},
 		"blocks": {
 			"core/paragraph": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--normal)",
-					"lineHeight": "var(--wp--custom--typo--line-height)"
+				"spacing": {
+					"padding": {
+						"top": "0.25rem",
+						"bottom": "0.25rem"
+					}
 				}
 			},
 			"core/site-title": {
@@ -530,6 +532,11 @@
 		{
 			"name": "page-checkout",
 			"title": "WooCommerce Checkout (Requires WooCommerce)",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "page-my-account",
+			"title": "WooCommerce My Account (Requires WooCommerce)",
 			"postTypes": [ "page" ]
 		},
 		{
