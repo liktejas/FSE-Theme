@@ -152,7 +152,7 @@ module.exports = function( grunt ) {
         },
 
         compress: {
-            responsive_block_editor_addons: {
+            responsive_fse: {
                 options: {
                     archive: 'build/responsive-fse.zip',
                 },
