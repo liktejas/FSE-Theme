@@ -550,6 +550,11 @@
 		{
 			"name": "product-search-results",
 			"title": "WooCommerce Product Search Result (Requires WooCommerce)"
+		},
+		{
+			"name": "full-width-template",
+			"title": "Full Width Page",
+			"postTypes": [ "page" ]
 		}
 	]
 }

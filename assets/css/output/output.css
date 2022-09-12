@@ -520,8 +520,3 @@ nav.woocommerce-MyAccount-navigation ul li,  .wc-block-product-categories-list.w
   --tw-bg-opacity: 1;
   background-color: rgb(16 101 156 / var(--tw-bg-opacity));
 }
-
-.hover\:text-primary-dark:hover {
-  --tw-text-opacity: 1;
-  color: rgb(16 101 156 / var(--tw-text-opacity));
-}
