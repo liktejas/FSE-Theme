@@ -1,7 +1,7 @@
 === Responsive FSE ===
 Contributors: CyberChimps
-Tested up to: 6.0.1
-Requires at least: 6.0.1
+Tested up to: 6.0.2
+Requires at least: 6.0.0
 Requires PHP: 7.4
 Version: 1.2.0
 License: GPLv2 or later

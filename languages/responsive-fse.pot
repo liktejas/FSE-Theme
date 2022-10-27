@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Responsive FSE 1.2.0\n"
 "Report-Msgid-Bugs-To: https://cyberchimps.com/forum/free/responsive/\n"
-"POT-Creation-Date: 2022-09-01 08:47:58+00:00\n"
+"POT-Creation-Date: 2022-10-14 08:27:56+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -120,10 +120,6 @@ msgstr ""
 
 #: inc/patterns/contact-info.php:23
 msgid "123 Main Street<br>Cambridge, MA, 02139"
-msgstr ""
-
-#: inc/patterns/content-sidebar.php:10
-msgid "Content Sidebar"
 msgstr ""
 
 #: inc/patterns/footer-restaurant.php:10
@@ -327,44 +323,42 @@ msgid "Team"
 msgstr ""
 
 #: inc/patterns/team-pattern.php:18
-msgid ""
-"Who\r\n"
-"\t\t\twe are"
+msgid "Who we are"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:24
+#: inc/patterns/team-pattern.php:26
 msgid "Our Team"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:45
+#: inc/patterns/team-pattern.php:47
 msgid "JOHN DOE"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:54
+#: inc/patterns/team-pattern.php:56
 msgid "Web Developer"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:81
+#: inc/patterns/team-pattern.php:83
 msgid "JANE DOE"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:90
+#: inc/patterns/team-pattern.php:92
 msgid "Sr. Tester"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:117
+#: inc/patterns/team-pattern.php:119
 msgid "RICHARD SMITH"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:126
+#: inc/patterns/team-pattern.php:128
 msgid "Marketing Executive"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:153
+#: inc/patterns/team-pattern.php:155
 msgid "REAL JONES"
 msgstr ""
 
-#: inc/patterns/team-pattern.php:162
+#: inc/patterns/team-pattern.php:164
 msgid "Team Leader"
 msgstr ""
 
@@ -431,8 +425,12 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: inc/woocommerce.php:45
-msgid "SALE"
+#: inc/register-block-variations.php:37
+msgid "Default header"
+msgstr ""
+
+#: inc/register-block-variations.php:38
+msgid "Sticky header"
 msgstr ""
 
 #. Theme Name of the plugin/theme

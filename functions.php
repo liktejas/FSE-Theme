@@ -49,6 +49,9 @@ if ( ! function_exists( 'responsive_fse_support' ) ) :
 	 */
 	function responsive_fse_support() {
 
+		// Make theme available for translation.
+		load_theme_textdomain( 'responsive-fse', get_template_directory() . '/languages' );
+
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
 
@@ -136,3 +139,6 @@ require get_template_directory() . '/inc/class-google-fonts-loader.php';
 
 // Apply filters.
 require get_template_directory() . '/inc/filters.php';
+
+// Displays Notice for Responsive Gutenberg Blocks Library.
+require get_template_directory() . '/inc/rbea-notice.php';

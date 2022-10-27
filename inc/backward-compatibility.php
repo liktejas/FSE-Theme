@@ -19,7 +19,9 @@
  */
 function responsive_fse_switch_theme() {
 	switch_theme( WP_DEFAULT_THEME );
-	unset( $_GET['activated'] ); // phpcs:ignore
+	if ( isset( $_GET['activated'] ) && wp_verify_nonce( sanitize_key( $_GET['activated'] ) ) ) {
+		unset( $_GET['activated'] );
+	}
 	add_action( 'admin_notices', 'responsive_fse_upgrade_notice' );
 }
 add_action( 'after_switch_theme', 'responsive_fse_switch_theme' );
@@ -35,9 +37,16 @@ add_action( 'after_switch_theme', 'responsive_fse_switch_theme' );
  * @return void
  */
 function responsive_fse_upgrade_notice() {
+	require get_template_directory() . '/inc/class-helper.php';
 	/* translators: %1$s: WordPress version. %2$s PHP version.*/
 	$message = sprintf( esc_html__( 'This theme requires at least WordPress version 6.0 and PHP version 7.4. You are running WordPress version %1$s and PHP version %2$s. Please upgrade and try again.', 'responsive-fse' ), $GLOBALS['wp_version'], PHP_VERSION );
-	printf( '<div class="error"><p>%s</p></div>', $message ); // phpcs:ignore WordPress.Security.EscapeOutput
+	printf(
+		'<div class="error"><p>%s</p></div>',
+		wp_kses(
+			$message,
+			Helper::get_allowed_tags()
+		)
+	);
 }
 
 /**
@@ -71,7 +80,7 @@ add_action( 'load-customize.php', 'responsive_fse_customize' );
  * @return void
  */
 function responsive_fse_preview() {
-	if ( isset( $_GET['preview'] ) ) { // phpcs:ignore
+	if ( isset( $_GET['preview'] ) && wp_verify_nonce( sanitize_key( $_GET['preview'] ) ) ) {
 		wp_die(
 			sprintf(
 				/* translators: %1$s: WordPress version. %2$s PHP version.*/

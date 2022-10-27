@@ -15,8 +15,10 @@ return array(
 		style="padding-top:70px;padding-right:0px;padding-bottom:70px;padding-left:0px">
 		<div class="wp-block-cover__inner-container">
 			<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#f9636b"},"typography":{"lineHeight":"1.6"}},"fontSize":"normal"} -->
-			<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#f9636b;line-height:1.6">' . __( 'Who
-			we are', 'responsive-fse' ) . '</p>
+			<p class="has-text-align-center has-text-color has-normal-font-size" style="color:#f9636b;line-height:1.6">' . __(
+		'Who we are',
+		'responsive-fse'
+	) . '</p>
 			<!-- /wp:paragraph -->
 	
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"50px","fontWeight":"600","lineHeight":"1"}},"textColor":"dark"} -->

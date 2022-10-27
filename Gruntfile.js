@@ -13,12 +13,11 @@ module.exports = function( grunt ) {
 
         uglify : {
 
-            options : {
-                banner : "/*! <%= pkg.name %>-output.min.js file */\n"
-            },
             build : {
-                src : ["assets/js/<%= pkg.name %>-output.js"],
-                dest : "assets/js/<%= pkg.name %>-output.min.js"
+                files: {
+                    "assets/js/<%= pkg.name %>-output.min.js": ["assets/js/<%= pkg.name %>-output.js"],
+                    "assets/js/block-variation.min.js": ["assets/js/block-variation.js"]
+                }
             }
         
         },
@@ -172,23 +171,27 @@ module.exports = function( grunt ) {
                 overwrite: true,
                 replacements: [
                     {
-                        from: /^(\*\*|)Stable tag:(\*\*|)(\s*?)[a-zA-Z0-9.-]+(\s*?)$/mi,
-                        to: '$1Stable tag:$2$3<%= pkg.version %>$4',
+                        from: /Tested up to:(\s*?)[a-zA-Z0-9\.\-\+]+$/m,
+                        to: 'Tested up to:$1' + pkg.tested_up_to,
                     },
+                    {
+                        from: /Version:(\s*?)[a-zA-Z0-9\.\-\+]+$/m,
+                        to: 'Version:$1' + pkg.version,
+                    },
+                ],
+            },
+            stylesheet: {
+                src: 'style.css',
+                overwrite: true,
+                replacements: [
                     {
                         from: /Tested up to:(\s*?)[a-zA-Z0-9\.\-\+]+$/m,
                         to: 'Tested up to:$1' + pkg.tested_up_to,
                     },
-                ],
-            },
-            tests: {
-                src: '.dev/tests/phpunit/**/*.php',
-                overwrite: true,
-                replacements: [
                     {
-                        from: /\'version\'(\s*?)\=\>(\s*?)\'(.*)\'/,
-                        to: '\'version\' \=\> \'<%= pkg.version %>\'',
-                    },
+                        from: /Version:(\s*?)[a-zA-Z0-9\.\-\+]+$/m,
+                        to: 'Version:$1' + pkg.version,
+                    }
                 ],
             },
             languages: {

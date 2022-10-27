@@ -1,8 +1,8 @@
 {
   "name": "responsive-fse",
   "version": "1.2.0",
-  "description": "Responsive Cyberchimps Full Site Editing theme",
-  "tested_up_to": "6.0.1",
+  "description": "Responsive-FSE is an experimental theme for the next-generation Full Site Editing (FSE) currently available in Gutenberg. Using this theme, you can easily change the complete layout of the post or page by editing templates. There are also useful blocks to play around with like Site Logo, Post Title, Post Author, Query, etc. The theme also allows users to add Template Parts like header, footer, sidebar, etc. to the template and also create new template parts. Features: #Block Patterns #Full Site Editing #Custom Colors #Custom Header #Custom Logo #Custom Menu #Grid Layout #Wide Blocks",
+  "tested_up_to": "6.0.2",
   "scripts": {
     "dev": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.css --watch",
     "minify": "npx tailwindcss -i ./assets/css/input/input.css -o ./assets/css/output/output.min.css --watch --minify",

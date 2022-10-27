@@ -8,9 +8,9 @@
  */
 
 $search_result = '';
-if ( isset( $_GET['s'] ) ) { //phpcs:ignore
+if ( isset( $_GET['s'] ) && wp_verify_nonce( sanitize_key( $_GET['s'] ) ) ) {
 
-	$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) ); //phpcs:ignore
+	$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) );
 	if ( isset( $search_term ) ) {
 		/* translators: %s: Search term. */
 		$search_result = sprintf( esc_html__( ' for "%s"', 'responsive-fse' ), esc_html( $search_term ) );
